@@ -7,14 +7,14 @@ p {
     font-family: 'Lato', sans-serif;
 }
 html {
-    background-color:#FFFAFA;
+    background-color: hsl(198, 57%, 95%);
 }
 .top {
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
 }
 .top .navbar-brand {
-    height: 10px;
-    line-height: 10px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
     padding: 0 10px;
     background-color: hsl(0, 83%, 47%);
@@ -23,14 +23,12 @@ html {
 }
 .top .container {
     padding: 0;
-    
-
 }
 .banner {
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
 }
 .banner .container {
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
     min-height: 200px;
     padding: 40px 30px 30px 40px;
 }
@@ -40,12 +38,12 @@ html {
     font-weight: 300;
 }
 .middle {
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
 }
 .middle .container {
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
     min-height: 300px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 .navbar-nav li a {
     color: rgb(63, 13, 121);
@@ -56,15 +54,13 @@ html {
     background-color: hsla(180, 4%, 64%, 0);
 }
 .bottom {
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
 }
 .bottom .container {
     background-color: rgb(59, 58, 58);
-    padding: 20px;
-    min-height: 80px;
+    min-height: 150px;
+    
 }
-
-
 .bottom .container h3 {
     color: #999;
 }
@@ -83,8 +79,6 @@ html {
 }
 .navbar-nav {
     margin: 0;
-    width: 1170px;
-    
 }
 
 .content p {
@@ -95,7 +89,7 @@ html {
     text-align: center;
 }
 .marq{
-    background-color: #FFFAFA;
+    background-color: hsl(198, 57%, 95%);
 }
 
 .card-container {
@@ -105,13 +99,9 @@ html {
     grid-gap: 1rem;
 }
 
-.container{
-    width:1170px;
-}
 
-.navbar{
-    height: 15px;
-}
+
+
 
 
 
