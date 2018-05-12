@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html ng-app="myApp">
+
+<html lang="en-US" data-ng-app="myApp">
 <head>
     <meta charset="utf-8">
     <!-- Set the viewport so this responsive site displays correctly on mobile devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
 
     <title>Rice Mill Web Demo  | shubham.info</title>
@@ -19,7 +20,9 @@
     <script src="js/angular-animate.min.js"></script>
     <script src="js/app.js"></script>
 </head>
-<body ng-controller="navController">
+
+
+<body data-ng-controller="navController">
 
     <!-- Site header and navigation -->
     <header class="top" role="header">
@@ -28,7 +31,7 @@
                         <a href="index.html"><img src="wp-content/uploads/2016/12/logo.png" alt=" Rice Mills" /></a>
                 </div>
             
-<br></br>
+<br><br/>
             
             <nav class="navbar navbar-default">
                     <div class="container-fluid">
@@ -110,20 +113,18 @@
 
 
     <div>
-        <div ng-view="" id="ng-view" class="slide-animation">
+        <div data-ng-view="" id="ng-view" class="slide-animation">
     </div>
 
                
 
     <div class=marq>
         <div class="container">
-    
-        <p>
                 <marquee behavior="scroll" direction="right" onmouseover="this.stop();" onmouseout="this.start();"><br />
                 <img class="" src="wp-content/uploads/2016/12/1-1.jpg"/><img class="" src="wp-content/uploads/2016/12/2-1.jpg" /><img src="wp-content/uploads/2016/12/3-1.jpg" /><img src="wp-content/uploads/2016/12/4-1.jpg" /><img src="wp-content/uploads/2016/12/5-1.jpg" /><img src="wp-content/uploads/2016/12/6-1.jpg" />
                 </marquee>
                 
-                </p>
+                
 
         </div>
     </div>
@@ -156,11 +157,11 @@
                       <br>
                       <strong>Email:</strong><br>
                       info@ricemills.com
-                    </p></p>
+                    </p>
             </div>
         </div>
     </div> 
-    </div>
+    
 
 
 
