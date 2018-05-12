@@ -13,20 +13,12 @@ html {
 .top {
     background-color: hsl(198, 57%, 95%);
 }
-.top .navbar-brand {
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    padding: 0 10px;
-    background-color: hsl(0, 83%, 47%);
-    color:#18a2a7; 
-    text-decoration: none;
-}
+
 .top .container {
     padding: 0;
 }
 .banner {
-    background-color: hsl(198, 57%, 95%);
+    background-color: rgb(17, 40, 48);
 }
 .banner .container {
     background-color: hsl(198, 57%, 95%);
@@ -39,12 +31,14 @@ html {
     font-weight: 300;
 }
 .middle {
-    background-color: hsl(198, 57%, 95%);
+    background-color: rgb(17, 40, 48);
 }
 .middle .container {
     background-color: hsl(198, 57%, 95%);
-    min-height: 300px;
-    padding-bottom: 20px;
+    min-height: 200px;
+    padding-right: 10px;
+    padding-left: 15px;
+
 }
 .navbar-nav li a {
     color: rgb(63, 13, 121);
@@ -135,30 +129,13 @@ html {
 
 /* Simple Card styles for prettying */
 
-html {
-    font-size: 16px;
-    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
-}
-
-body {
-    background-color: #efefef;
-}
-* {
-    box-sizing: border-box;
-}
-.card {
-    box-shadow: 0px 1px 5px #555;
-    background-color: white;
-}
-.card__title {
-    font-size: 2rem;
-    padding: .5rem;
-}
-.card__description {
-    padding: .5rem;
-    line-height: 1.6em;
-}
 
 img {
     max-width: 100%;
+}
+
+.row .col-md-4 h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'roboto';
 }
