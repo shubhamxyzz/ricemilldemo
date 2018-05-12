@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+html {
+    background-color: hsl(198, 57%, 95%);
+}
+.top {
+    background-color: hsl(198, 57%, 95%);
+}
+.top .navbar-brand {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 10px;
+    background-color: hsl(0, 83%, 47%);
+    color:#18a2a7; 
+    text-decoration: none;
+}
+.top .container {
+    padding: 0;
+}
+.banner {
+    background-color: hsl(198, 57%, 95%);
+}
+.banner .container {
+    background-color: hsl(198, 57%, 95%);
+    min-height: 200px;
+    padding: 40px 30px 30px 40px;
+}
+.banner .container p {
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.middle {
+    background-color: hsl(198, 57%, 95%);
+}
+.middle .container {
+    background-color: hsl(198, 57%, 95%);
+    min-height: 300px;
+    padding-bottom: 20px;
+}
+.navbar-nav li a {
+    color: rgb(63, 13, 121);
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+.navbar-nav li a:hover {
+    background-color: hsla(180, 4%, 64%, 0);
+}
+.bottom {
+    background-color: hsl(198, 57%, 95%);
+}
+.bottom .container {
+    background-color: rgb(59, 58, 58);
+    min-height: 150px;
+    
+}
+.bottom .container h3 {
+    color: #999;
+}
+.bottom .container p {
+    color: #666;
+}
+.navbar-toggle {
+    color: #009b9b;
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+}
+.navbar-toggle:hover {
+    background-color: rgb(241, 55, 55);
+}
+.navbar-nav {
+    margin: 0;
+}
+
+.content p {
+    line-height: 30px;
+    font-size: 16px;
+}
+.to-tutorial {
+    text-align: center;
+}
+.marq{
+    background-color: hsl(198, 57%, 95%);
+}
+
+.card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+}
+
+
+
+
+
+
+
+/* Simple Card styles for prettying */
+
+html {
+    font-size: 16px;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+* {
+    box-sizing: border-box;
+}
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+}
+.card__title {
+    font-size: 2rem;
+    padding: .5rem;
+}
+.card__description {
+    padding: .5rem;
+    line-height: 1.6em;
+}
+
+img {
+    max-width: 100%;
+}
