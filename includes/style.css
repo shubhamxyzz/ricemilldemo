@@ -33,7 +33,10 @@ html {
 .middle {
    
 }
-
+.card .card-img-top{
+    height:240px;
+    width:360px;
+} 
    
 
 }
