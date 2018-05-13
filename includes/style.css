@@ -7,11 +7,11 @@ p {
     font-family: 'Lato', sans-serif;
 }
 html {
-    background-color: hsl(198, 57%, 95%);
+    background-color: rgb(255, 255, 255);
 }
 
 .top {
-    background-color: hsl(198, 57%, 95%);
+    background-color: rgb(255, 255, 255);
 }
 
 .top .container {
@@ -31,11 +31,9 @@ html {
     font-weight: 300;
 }
 .middle {
-    background-color: hsl(198, 57%, 95%);
+   
 }
-.middle .container {
-    background-color: hsl(198, 57%, 95%);
-    min-height: 200px;
+
    
 
 }
@@ -47,13 +45,8 @@ html {
 .navbar-nav li a:hover {
     background-color: hsla(180, 4%, 64%, 0);
 }
-.bottom {
-    
-    background-color: hsl(198, 57%, 95%);
 
-    
-}
-.bottom .container {
+.bottom {
 
     background-color: rgb(59, 58, 58);
     min-height: 150px;
