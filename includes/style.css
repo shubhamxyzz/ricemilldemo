@@ -54,8 +54,7 @@ html {
     
 }
 .bottom .container {
-    background-image:url("wp-content/uploads/2016/12/black.png");
-    background-repeat: repeat;
+
     background-color: rgb(59, 58, 58);
     min-height: 150px;
     
