@@ -55,6 +55,7 @@ html {
 }
 .bottom .container {
     background-image:url("wp-content/uploads/2016/12/black.png");
+    background-repeat: repeat;
     background-color: rgb(59, 58, 58);
     min-height: 150px;
     
@@ -62,13 +63,10 @@ html {
 }
 .bottom .container{
     color: #999;
+
 }
 
-.bottom .container .col-md-4 {
-    
-    
-    
-}
+
 
 .textwidget{
     padding-right:100px;
