@@ -25,18 +25,31 @@ myApp.config(['$routeProvider',function ($routeProvider){
                     title: 'home',
                     templateUrl: 'pages/home.html'
                 })
-                .when('/about',{
+                .when('/process',{
                     title: 'About',
-                    templateUrl: 'pages/about.html'
+                    templateUrl: 'pages/process.html'
                 })
                 .when('/contact',{
                     title: 'contact',
                     templateUrl: 'pages/contact.html'
                 })
-                .when('/portfolio',{
-                    title: 'portfolio',
-                    templateUrl: 'pages/portfolio.html'
+
+		.when('/research',{
+                    title: 'research',
+                    templateUrl: 'pages/research.html'
                 })
+                .when('/brand',{
+                    title: 'portfolio',
+                    templateUrl: 'pages/brands.html'
+
+                })
+
+		.when('/product',{
+                    title: 'portfolio',
+                    templateUrl: 'pages/products.html'
+
+                })	
+
                 .otherwise({
                     redirectTo: 'pages/notfound.html'
                 });

@@ -8,10 +8,16 @@ p {
 }
 html {
     background-color: rgb(255, 255, 255);
+    
 }
 
 .top {
     background-color: rgb(255, 255, 255);
+    background:url(http://sulson.com/wp-content/uploads/2014/10/Product-backgrnd1.jpg) center no-repeat;
+}
+.top .container .intro h1{
+    
+    font-family: 'Pangolin', cursive;
 }
 
 .top .container {
@@ -30,20 +36,28 @@ html {
     padding-left: 5px;
     font-weight: 300;
 }
-.middle {
-   
+.middle  {
+    background-color: hsl(198, 57%, 95%);
+    background:url("wp-content/uploads/2016/12/middle.png") repeat;
 }
+    
+                            
+   
+
 .card .card-img-top{
     height:260px;
     width:380px;
 } 
    
-
+.middle .container{
+    background:url("wp-content/uploads/2016/12/middle.png") repeat;
 }
+
+
 .navbar-nav li a {
     color: rgb(63, 13, 121);
     font-family: 'Lato', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
 }
 .navbar-nav li a:hover {
     background-color: hsla(180, 4%, 64%, 0);
@@ -102,7 +116,7 @@ html {
 
 
 .carousel .item {
-    height: 200px;
+    height: 250px;
   }
   
   .item img {
