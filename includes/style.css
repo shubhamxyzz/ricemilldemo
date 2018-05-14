@@ -38,11 +38,11 @@ html {
 }
 .middle  {
     background-color: hsl(198, 57%, 95%);
-    background:url("wp-content/uploads/2016/12/middle.png") repeat;
-}
+    
     
                             
    
+}
 
 .card .card-img-top{
     height:260px;
@@ -116,13 +116,16 @@ html {
 
 
 .carousel .item {
-    height: 300px;
+    height: 200px;
   }
   
-  .carousel-inner{
-      width: 100%;
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 200px;
   }
-  
+
 
 
 /* Simple Card styles for prettying */
@@ -138,4 +141,3 @@ img {
     
     font-family: 'roboto';
 }
-
