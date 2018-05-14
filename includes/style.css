@@ -7,34 +7,8 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
-.top {
-    background-color: rgb(255, 255, 255);
-    
-}
-.top .container .intro h1{
-    
-    font-family: 'Pangolin', cursive;
-}
-
-.margintop {
-    margin-top: 10px;
-    text-align: left;
-}
 
 
-.banner {
-    background-color: rgb(17, 40, 48);
-}
-.banner .container {
-    background-color: hsl(198, 57%, 95%);
-    min-height: 200px;
-    padding: 40px 30px 30px 40px;
-}
-.banner .container p {
-    font-size: 22px;
-    padding-left: 5px;
-    font-weight: 300;
-}
 .middle  {
     background-color: hsl(198, 57%, 95%);
     background:url("wp-content/uploads/2016/12/middle.png") repeat;
@@ -86,13 +60,7 @@ p {
 .to-tutorial {
     text-align: center;
 }
-.marq{
-    background-color: hsl(198, 57%, 95%);
-    
-}
-.marq .container {
-    width:1200px;
-}
+
 
 
 .row .col-md-3 h2{
@@ -149,33 +117,17 @@ a:focus {
 .margintop{margin-top: 10px; text-align: left;}
 .margintop1{margin-top: 17px; text-align: left;}
 .pad_left{padding-left: 0}
+
 .phone{font-size: 18px; font-weight: bold; color: #0063b0;text-align:right;}
-h3{
-    font-size: 37px;
-}
-.welcome{
-    color: #0063b0;
-    margin-bottom: 20px;
-    font-family:Open Sans Light;
-}
+
+
 .navbar-default{
-    background: transparent url("wp-content/uploads/2016/12/navbar-bg.png") repeat scroll 0 0;
+   background: green;
     border: medium none;
     box-shadow: none;
 }
 
-.topbanner{
-    background-image: url("../images/top_bg.jpg");
-    height: 230px;
-    padding-top: 10px;
-    width: 100%;
-    margin-top: -10px;
-}
 
-.grain{
-    background-image: url("../images/bg.jpg");
-    width: 100%;
-}
 .fee{
     color: #7e7e7e;
     font-size: 17px;
@@ -190,22 +142,7 @@ h3{
 .navbar{margin-bottom: 0; margin-top: 10px;}
 .navbar-default .navbar-nav > li{ margin-top: 4px;}
 .navbar-default .navbar-nav > li > a{padding:6px 20px; color: #fff;}
-.searchbox{
-    background-color: #618d2b;
-    border-radius: 20px;
-}
-.searchbox .form-control{
-    background-color: transparent;
-    border: none;
-    box-shadow: none;
-    color: #fff;
-    height: 28px;
-}
-.searchbox .btn{background-color: transparent;}
-.searchbox .form-control::-moz-placeholder {
-    color: #fff;
-    opacity: 1;
-}
+
 .active {
     height: auto;
 }
@@ -227,10 +164,3 @@ h3{
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{font-size: 0;}
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{left: 60%;}
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {right: 62%;}
-.sliderbg{
-    background-image: url("../images/slider_bg.jpg");
-    height: auto;
-    margin-top: -10px;
-    padding-top: 20px;
-    width: 100%;
-}
