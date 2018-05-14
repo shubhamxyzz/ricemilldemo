@@ -7,25 +7,24 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+.middle{
+    background:url("wp-content/uploads/2016/12/middle.png") repeat;
 
+}
 
-.middle  {
-    background-color: hsl(198, 57%, 95%);
+.middle .container {
+    
     background:url("wp-content/uploads/2016/12/middle.png") repeat;
 }
     
-.middle1{
-    background:url(http://www.navdurgarice.com/images/slider_bg.jpg) repeat;
-}
+
 
 .card .card-img-top{
     height:260px;
     width:380px;
 } 
    
-.middle .container{
-    background:url("wp-content/uploads/2016/12/middle.png") repeat;
-}
+
 
 
 
@@ -37,10 +36,7 @@ p {
     
     
 }
-.bottom .container{
-    color: #999;
 
-}
 
 
 
@@ -114,6 +110,8 @@ a:hover,
 a:focus {
     text-decoration: none;
 }
+
+
 .margintop{margin-top: 10px; text-align: left;}
 .margintop1{margin-top: 17px; text-align: left;}
 .pad_left{padding-left: 0}
