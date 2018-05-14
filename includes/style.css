@@ -6,28 +6,62 @@ h1, h2, h3, h4 {
 p {
     font-family: 'Lato', sans-serif;
 }
-
-.middle{
-    background:url("wp-content/uploads/2016/12/middle.png") repeat;
-
+html {
+    background-color: rgb(255, 255, 255);
+    
 }
 
-.middle .container {
+.top {
+    background-color: rgb(255, 255, 255);
+    background:url(http://sulson.com/wp-content/uploads/2014/10/Product-backgrnd1.jpg) center no-repeat;
+}
+.top .container .intro h1{
     
+    font-family: 'Pangolin', cursive;
+}
+
+.top .container {
+    padding: 0;
+}
+.banner {
+    background-color: rgb(17, 40, 48);
+}
+.banner .container {
+    background-color: hsl(198, 57%, 95%);
+    min-height: 200px;
+    padding: 40px 30px 30px 40px;
+}
+.banner .container p {
+    font-size: 22px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+.middle  {
+    background-color: hsl(198, 57%, 95%);
     background:url("wp-content/uploads/2016/12/middle.png") repeat;
 }
     
-
+                            
+   
 
 .card .card-img-top{
     height:260px;
     width:380px;
 } 
    
+.middle .container{
+    background:url("wp-content/uploads/2016/12/middle.png") repeat;
+}
 
 
-
-
+.navbar-nav li a {
+    color: rgb(63, 13, 121);
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+}
+.navbar-nav li a:hover {
+    background-color: hsla(180, 4%, 64%, 0);
+}
 
 .bottom {
 
@@ -36,7 +70,10 @@ p {
     
     
 }
+.bottom .container{
+    color: #999;
 
+}
 
 
 
@@ -47,7 +84,19 @@ p {
 .bottom .container p {
     color: #666;
 }
-
+.navbar-toggle {
+    color: #009b9b;
+    font-size: 32px;
+    margin: 3px;
+    padding: 2px 5px;
+    line-height: 32px;
+}
+.navbar-toggle:hover {
+    background-color: rgb(241, 55, 55);
+}
+.navbar-nav {
+    margin: 0;
+}
 
 .content p {
     line-height: 30px;
@@ -56,8 +105,29 @@ p {
 .to-tutorial {
     text-align: center;
 }
+.marq{
+    background-color: hsl(198, 57%, 95%);
+    
+}
+.marq .container {
+    width:1200px;
+}
 
 
+
+.carousel .item {
+    height: 325px;
+  }
+  
+  
+
+
+/* Simple Card styles for prettying */
+
+
+img {
+    max-width: 100%;
+}
 
 .row .col-md-3 h2{
     font-size: 20px;
@@ -65,100 +135,3 @@ p {
     
     font-family: 'roboto';
 }
-
-
-
-
-
-@font-face {
-    font-family:Open Sans;
-    src: url(../fonts/OpenSans-Regular.ttf);
-}
-
-@font-face {
-    font-family:Open Sans Bold;
-    src: url(../fonts/OpenSans-Bold.ttf);
-}
-
-@font-face {
-    font-family:Open Sans Light;
-    src: url(../fonts/OpenSans-Light.ttf);
-}
-@font-face {
-    font-family:Open Sans Semibold;
-    src: url(../fonts/OpenSans-Semibold.ttf);
-}
-body {
-    color: #555555;
-    font-family:Open Sans,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-html {
-    width: 100%;
-    height: 100%;
-}
-
-a {
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-}
-
-
-.margintop{margin-top: 10px; text-align: left;}
-.margintop1{margin-top: 17px; text-align: left;}
-.pad_left{padding-left: 0}
-
-.phone{font-size: 18px; font-weight: bold; color: #0063b0;text-align:right;}
-
-
-.navbar-default{
-   background: green;
-    border: medium none;
-    box-shadow: none;
-}
-
-
-.fee{
-    color: #7e7e7e;
-    font-size: 17px;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
-    background-color: #75a637; 
-    background-image: none;
-    color: #fff;
-    border-radius: 3px;
-}
-.navbar{margin-bottom: 0; margin-top: 10px;}
-.navbar-default .navbar-nav > li{ margin-top: 4px;}
-.navbar-default .navbar-nav > li > a{padding:6px 20px; color: #fff;}
-
-.active {
-    height: auto;
-}
-.main-menu{
-    float: none;
-    margin: 0 auto;
-    width: 74%;
-}
-.top-text{
-    margin-left: 188px;
-    color: #0063b0;
-    font-family:Open Sans Semibold;
-}
-
-.carousel-control.left{background-image: none;  height: 440px;}
-.carousel-control.right{background-image: none;  height: 440px;}
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{margin-left:0;}
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {margin-right: 0;}
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{font-size: 0;}
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{left: 60%;}
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {right: 62%;}
