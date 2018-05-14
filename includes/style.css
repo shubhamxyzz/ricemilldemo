@@ -135,3 +135,7 @@ img {
     
     font-family: 'roboto';
 }
+
+.carousel-inner{
+    height: 200px;  
+}
