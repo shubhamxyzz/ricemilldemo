@@ -6,23 +6,22 @@ h1, h2, h3, h4 {
 p {
     font-family: 'Lato', sans-serif;
 }
-html {
-    background-color: rgb(255, 255, 255);
-    
-}
 
 .top {
     background-color: rgb(255, 255, 255);
-    background:url(http://sulson.com/wp-content/uploads/2014/10/Product-backgrnd1.jpg) center no-repeat;
+    
 }
 .top .container .intro h1{
     
     font-family: 'Pangolin', cursive;
 }
 
-.top .container {
-    padding: 0;
+.margintop {
+    margin-top: 10px;
+    text-align: left;
 }
+
+
 .banner {
     background-color: rgb(17, 40, 48);
 }
@@ -41,8 +40,9 @@ html {
     background:url("wp-content/uploads/2016/12/middle.png") repeat;
 }
     
-                            
-   
+.middle1{
+    background:url(http://www.navdurgarice.com/images/slider_bg.jpg) repeat;
+}
 
 .card .card-img-top{
     height:260px;
@@ -54,14 +54,7 @@ html {
 }
 
 
-.navbar-nav li a {
-    color: rgb(63, 13, 121);
-    font-family: 'Lato', sans-serif;
-    font-size: 28px;
-}
-.navbar-nav li a:hover {
-    background-color: hsla(180, 4%, 64%, 0);
-}
+
 
 .bottom {
 
@@ -84,19 +77,7 @@ html {
 .bottom .container p {
     color: #666;
 }
-.navbar-toggle {
-    color: #009b9b;
-    font-size: 32px;
-    margin: 3px;
-    padding: 2px 5px;
-    line-height: 32px;
-}
-.navbar-toggle:hover {
-    background-color: rgb(241, 55, 55);
-}
-.navbar-nav {
-    margin: 0;
-}
+
 
 .content p {
     line-height: 30px;
@@ -114,30 +95,142 @@ html {
 }
 
 
-
-.carousel .item {
-    height: 325px;
-  }
-  
-  .item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 200px;
-  }
-
-
-
-/* Simple Card styles for prettying */
-
-
-img {
-    max-width: 100%;
-}
-
 .row .col-md-3 h2{
     font-size: 20px;
     text-align: center;
     
     font-family: 'roboto';
+}
+
+
+
+
+
+@font-face {
+    font-family:Open Sans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:Open Sans Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family:Open Sans Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family:Open Sans Semibold;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+body {
+    color: #555555;
+    font-family:Open Sans,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+.margintop{margin-top: 10px; text-align: left;}
+.margintop1{margin-top: 17px; text-align: left;}
+.pad_left{padding-left: 0}
+.phone{font-size: 18px; font-weight: bold; color: #0063b0;text-align:right;}
+h3{
+    font-size: 37px;
+}
+.welcome{
+    color: #0063b0;
+    margin-bottom: 20px;
+    font-family:Open Sans Light;
+}
+.navbar-default{
+    background: transparent url("wp-content/uploads/2016/12/navbar-bg.png") repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+}
+
+.topbanner{
+    background-image: url("../images/top_bg.jpg");
+    height: 230px;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.grain{
+    background-image: url("../images/bg.jpg");
+    width: 100%;
+}
+.fee{
+    color: #7e7e7e;
+    font-size: 17px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
+    background-color: #75a637; 
+    background-image: none;
+    color: #fff;
+    border-radius: 3px;
+}
+.navbar{margin-bottom: 0; margin-top: 10px;}
+.navbar-default .navbar-nav > li{ margin-top: 4px;}
+.navbar-default .navbar-nav > li > a{padding:6px 20px; color: #fff;}
+.searchbox{
+    background-color: #618d2b;
+    border-radius: 20px;
+}
+.searchbox .form-control{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    height: 28px;
+}
+.searchbox .btn{background-color: transparent;}
+.searchbox .form-control::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.active {
+    height: auto;
+}
+.main-menu{
+    float: none;
+    margin: 0 auto;
+    width: 74%;
+}
+.top-text{
+    margin-left: 188px;
+    color: #0063b0;
+    font-family:Open Sans Semibold;
+}
+
+.carousel-control.left{background-image: none;  height: 440px;}
+.carousel-control.right{background-image: none;  height: 440px;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{margin-left:0;}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {margin-right: 0;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{font-size: 0;}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{left: 60%;}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {right: 62%;}
+.sliderbg{
+    background-image: url("../images/slider_bg.jpg");
+    height: auto;
+    margin-top: -10px;
+    padding-top: 20px;
+    width: 100%;
 }
