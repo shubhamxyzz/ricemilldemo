@@ -54,3 +54,6 @@ myApp.config(['$routeProvider',function ($routeProvider){
                     redirectTo: 'pages/notfound.html'
                 });
     }]);
+
+
+  
