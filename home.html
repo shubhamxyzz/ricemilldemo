@@ -16,69 +16,65 @@
     <script src="js/angular-route.min.js"></script>
     <script src="js/angular-animate.min.js"></script>
     <script src="js/app.js"></script>
+    <!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
 </head>
 <body ng-controller="navController">
 
     <!-- Site header and navigation -->
-    <header class="top" role="header">
-        <div class="container">
-                
-                        <a href="index.html"><img src="wp-content/uploads/2016/12/dosti.png"; alt=" Rice Mills" align="center" /></a>
-                
-            <br><br>
-            
-            
-            
-                <div class="container"></div>
-                <ul class="navbar-nav nav">
-                    <li><a href="#/">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#accreditions">Accredetions</a></li>
-                    <li><a href="#brand">Brands</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-        </div>
-        
-    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script>
 
-
-
-  
-</header>
-<div class="show">
-    <br>
-<div class="container">
-        <div class="carousel slide" id="myCarousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-                <li data-slide-to="1" data-target="#myCarousel" class=""></li>
-                <li data-slide-to="2" data-target="#myCarousel"></li>
-            </ol>
-
-            <!-- Wrapper for Slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img  src="wp-content/uploads/2016/12/b1.jpeg"> 
+    <div class="main_wrap">
+        <div class="temp_container" id="top_hdr">
+            <header>
+                <div class="logo_wrap">
+                    <a href="/" title="home"> </a>
                 </div>
-                <div class="item">
-                    <img  src="wp-content/uploads/2016/12/b2.jpeg"> 
+                <div class="pushnav">
+                    <div class="mnav"><a class="navicon"><span></span><span></span><span></span></a></div>
+                    <div class="navigation">
+                        <ul>
+                            <li><a href="#brand">DOSTI</a></li>
+                            <li><a href="">ABOUT DOSTI</a></li>
+                            <li><a href="">EXPLORE DOSTI</a></li>
+                            
+                        </ul>
+                    </div>
                 </div>
-                <div class="item">
-                    <img  src="wp-content/uploads/2016/12/b3.jpeg"> 
+            </header>
+            <div class="region region-content">
+                <div class="section sat_mstrbnr" id="section1">
+                    <div class="first_slide slick-initialized slick-slider">
+                        <div class="slick-list draggable" tabindex="0">
+                            <div class="slick-track" style="opacity: 1; width: 7812px; transform: translate3d(-1302px, 0px, 0px);">
+                                <div class="slick-slide slick-cloned" index="-1" style="width: 1302px;"> <img alt="Daawat saute sauces" title="Daawat saute sauces" src="wp-content/uploads/2016/12/b3.jpeg"></div>
+                                <div class="slick-slide slick-active" index="0" style="width: 1302px;"> <img alt="Daawat Rice Amitabh Bacchan and Sanjeev Kapoor" title="Daawat Rice Amitabh Bacchan and Sanjeev Kapoor" src="wp-content/uploads/2016/12/b3.jpeg"></div>
+                                <div class="slick-slide" index="1" style="width: 1302px;"> <img alt="" title="" src="wp-content/uploads/2016/12/b1.jpeg"></div>
+                                <div class="slick-slide" index="2" style="width: 1302px;"> <img alt="wp-content/uploads/2016/12/b1.jpeg"></div>
+                                <div class="slick-slide" index="3" style="width: 1302px;"> <img alt="Daawat saute sauces" title="Daawat saute sauces" src="wp-content/uploads/2016/12/b1.jpeg"></div>
+                                <div class="slick-slide slick-cloned" index="4" style="width: 1302px;"> <img alt="Daawat Rice Amitabh Bacchan and Sanjeev Kapoor" title="Daawat Rice Amitabh Bacchan and Sanjeev Kapoor" src="wp-content/uploads/2016/12/b2.jpeg"></div>
+                            </div>
+                        </div>
+                        <ul class="slick-dots" style="display: block;">
+                            <li class="slick-active">
+                                <button type="button" data-role="none">1</button>
+                            </li>
+                            <li class="">
+                                <button type="button" data-role="none">2</button>
+                            </li>
+                            <li class="">
+                                <button type="button" data-role="none">3</button>
+                            </li>
+                            <li class="">
+                                <button type="button" data-role="none">4</button>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
             </div>
-            <!-- Controls -->
-            <a data-slide="prev" href="#myCarousel" class="left carousel-control">
-                <span class="icon-prev"></span>
-            </a>
-            <a data-slide="next" href="#myCarousel" class="right carousel-control">
-                <span class="icon-next"></span>
-            </a>
-        </div>
-    </div>
-        
-</div>
 
     <div>
         <div ng-view="" id="ng-view" class="slide-animation">

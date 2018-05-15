@@ -128,3 +128,4077 @@ img {
     font-family: 'roboto';
 }
 
+
+html,button,input,select,textarea{
+    color:#222
+}
+html,body{
+    width:100%;
+    padding:0;
+    margin:0;
+    height:100%
+}
+body{
+    overflow-x:hidden
+}
+::-moz-selection{
+    background:#b3d4fc;
+    text-shadow:none
+}
+::selection{
+    background:#b3d4fc;
+    text-shadow:none
+}
+hr{
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0
+}
+audio,canvas,img,video{
+    vertical-align:middle
+}
+fieldset{
+    border:0;
+    margin:0;
+    padding:0
+}
+a{
+    outline:0;
+    text-decoration:underline;
+    -moz-outline:0
+}
+a:hover{
+    text-decoration:none;
+    cursor:pointer
+}
+a.nounderline,a:link.nounderline,a:visited.nounderline,a:active.nounderline{
+    text-decoration:none
+}
+a:hover.nounderline{
+    text-decoration:underline
+}
+a img{
+    border:0;
+    text-decoration:none
+}
+textarea{
+    resize:vertical
+}
+.browsehappy{
+    margin:.2em 0;
+    background:#ccc;
+    color:#000;
+    padding:.2em 0
+}
+body{
+    background:#f8f8f3;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    overflow-x:hidden
+}
+body *{
+    box-sizing:border-box
+}
+.v_align{
+    display:table;
+    *display:block;
+    position:static;
+    *position:relative;
+    *overflow:hidden;
+    height:100%;
+    width:100%
+}
+.v_align .middle{
+    font-weight:normal;
+    display:table-cell;
+    vertical-align:middle;
+    width:100%;
+    position:static
+}
+.v_align .middle{
+    *position:absolute;
+    *top:50%;
+    *left:0;
+}
+.v_align .inner{
+    position:relative;
+    top:-50%
+}
+@font-face{
+    font-family:'Conv_TrajanPro-Bold';
+    src:url(//www.daawat.com/sites/all/themes/ltfoods/css/fonts/TrajanPro-Bold.eot);
+    src:local('☺'),url(//www.daawat.com/sites/all/themes/ltfoods/css/fonts/TrajanPro-Bold.woff) format('woff'),url(//cdn.daawat.com/cdn/farfuture/omj-5Vdpg-R_wa5FvVXkOuUm25CrVo_WN63zrVgKXlo/mtime:1432717835/sites/all/themes/ltfoods/css/fonts/TrajanPro-Bold.ttf) format('truetype'),url(//cdn.daawat.com/cdn/farfuture/omj-5Vdpg-R_wa5FvVXkOuUm25CrVo_WN63zrVgKXlo/mtime:1432717835/sites/all/themes/ltfoods/css/fonts/TrajanPro-Bold.svg) format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+@font-face{
+    font-family:'Conv_TrajanPro-Regular';
+    src:url(//www.daawat.com/sites/all/themes/ltfoods/css/fonts/TrajanPro-Regular.eot);
+    src:local('☺'),url(//www.daawat.com/sites/all/themes/ltfoods/css/fonts/TrajanPro-Regular.woff) format('woff'),url(//cdn.daawat.com/cdn/farfuture/cfUZrDF3sK7to-JXMwNvfig2iIB10-sXT52n1XLKw80/mtime:1432717835/sites/all/themes/ltfoods/css/fonts/TrajanPro-Regular.ttf) format('truetype'),url(//cdn.daawat.com/cdn/farfuture/cfUZrDF3sK7to-JXMwNvfig2iIB10-sXT52n1XLKw80/mtime:1432717835/sites/all/themes/ltfoods/css/fonts/TrajanPro-Regular.svg) format('svg');
+    font-weight:normal;
+    font-style:normal
+}
+.main_wrap{
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family:'Conv_TrajanPro-Regular'
+}
+.temp_container{
+    width:96%;
+    margin:0 auto;
+    padding:0;
+    overflow:hidden
+}
+header{
+    background:none repeat scroll 0 0 #f8f8f3;
+    float:left;
+    left:0;
+    margin:0;
+    padding:20px 32px;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:499
+}
+.logo_wrap{
+    width:190px;
+    padding:0;
+    height:52px;
+    float:left;
+    background:url("wp-content/uploads/2016/12/dosti.png") center top no-repeat;
+    background-size:cover;
+    margin-right:-100%;
+    position:absolute
+}
+.logo_wrap a{
+    display:block;
+    width:190px;
+    height:52px;
+    outline:0
+}
+.navigation{
+    width:85%;
+    margin:0;
+    padding:15px 0 0 0;
+    float:right
+}
+.navigation ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:100%
+}
+.navigation ul li{
+    list-style:none;
+    margin:0;
+    padding:0 25px;
+    display:inline-block;
+    *display:inherit;
+    zoom:1;
+    font-size:24px;
+    font-weight:bold;
+    text-transform:uppercase
+}
+.navigation ul li:first-child{
+    padding-left:50px
+}
+.navigation ul li a{
+    color:#000;
+    text-decoration:none
+}
+.navigation ul li a:hover{
+    color:#293b8f;
+    text-decoration:none
+}
+.navigation ul li a.active{
+    color:#293b8f;
+    text-decoration:none
+}
+.section_one{
+    width:100%;
+    height:100%;
+    float:left
+}
+a.vid_btn{
+    width:131px;
+    height:130px;
+    background:url(//cdn.daawat.com/cdn/farfuture/prc7ixDXJLzszOpQdnafTUJvlJGM_A_PDgMhOgcEiKU/mtime:1432717835/sites/all/themes/ltfoods/images/video_btn.png) no-repeat 0 0;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    font-size:0;
+    line-height:0;
+    background-size:cover
+}
+ .cook_with_dawat_btm_desc{
+    width:100%;
+    background:url(//cdn.daawat.com/cdn/farfuture/0pj9UFZ8dSxDEqiZPRqDvIksm5jcEQSunoqYVTDag5k/mtime:1432717835/sites/all/themes/ltfoods/images/cooker-icon.png) left top no-repeat;
+    position:absolute;
+    left:3%;
+    bottom:5%;
+    margin:0;
+    font-size:20px;
+    padding:0 0 0 60px;
+    font-weight:bold
+}
+a:hover.vid_btn{
+    background:url(//cdn.daawat.com/cdn/farfuture/OoUO3-dqHTfru_lnlXd3eDnMdbrXnpJn6gko87JhrsU/mtime:1432717835/sites/all/themes/ltfoods/images/video_btn_hover.png) no-repeat 0 0;
+    background-size:cover
+}
+.first_slide{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    min-height:556px
+}
+.fourth_slide{
+    width:100%;
+    margin:0;
+    padding:20px 0 0 0;
+    float:left
+}
+.second_slide{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left
+}
+.second_slide .heading{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center;
+    font-size:60px;
+    color:#d78f47;
+    line-height:50px;
+    font-weight:normal;
+    text-transform:uppercase
+}
+.second_slide .subheading{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center;
+    color:#000;
+    font-weight:bold;
+    font-size:35px;
+    line-height:42px
+}
+.second_slide .banner{
+    width:100%;
+    margin:0;
+    padding:9px 0 0 0;
+    float:left;
+    position:relative
+}
+.second_slide .banner img{
+    width:100%
+}
+.second_slide .banner .txt{
+    width:60%;
+    height:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-442px;
+    top:50%;
+    margin-top:-60px
+}
+.second_slide .grid{
+    width:100%;
+    margin:0;
+    padding:28px 0 0 0;
+    float:left
+}
+.second_slide .grid .reusable{
+    width:33.33%;
+    margin:0;
+    padding:0 1% 0 0;
+    float:left
+}
+.second_slide .grid .reusable .head{
+    width:100%;
+    padding:0;
+    margin:0 0 28px 0;
+    float:left;
+    text-align:center;
+    font-size:25px;
+    color:#2a3b8f;
+    line-height:25px;
+    text-transform:uppercase
+}
+.second_slide .grid .reusable .head a{
+    color:#2a3b8f;
+    text-decoration:none
+}
+.second_slide .grid .reusable .head span{
+    display:block
+}
+.second_slide .grid .reusable .thumb{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center;
+    position:relative;
+    overflow:hidden
+}
+.second_slide .grid .reusable .thumb img{
+    width:100%
+}
+.slick-slide img{
+    margin:0 auto
+}
+.arrow_mid{
+    width:137px;
+    margin:0 0 0 -69px;
+    padding:0;
+    position:absolute;
+    left:50%;
+    bottom:-2px
+}
+.second_slide .grid .reusable .sgloverLay a{
+    display:block;
+    font-size:15px;
+    text-align:center;
+    padding:15px 0;
+    text-decoration:none;
+    color:#fff
+}
+.glthumb{
+    overflow:hidden
+}
+.gloverLay{
+    position:absolute;
+    width:90%;
+    height:90%;
+    left:5%;
+    top:5%;
+    font-size:17px;
+    color:#FFF;
+    text-align:center;
+    line-height:30px;
+    text-transform:uppercase;
+    background:url(//cdn.daawat.com/cdn/farfuture/uZajXJSYvTZYsuzssk17eDT-kMfZmV0pb5xLa8JkJvo/mtime:1432717835/sites/all/themes/ltfoods/images/overlaybg1.png);
+    margin:0 auto;
+    display:none;
+    font-weight:bold
+}
+.gloverLay .inr{
+    height:100%;
+    padding:0;
+    color:#fff;
+    text-decoration:none;
+    width:100%;
+    display:none
+}
+.gloverLay .inner{
+    padding:20px 40px
+}
+.gloverLay .inner a{
+    color:#fff;
+    display:block;
+    text-decoration:none;
+    padding:10px 10px !important;
+    font-size:11px;
+    line-height:normal !important
+}
+.second_slide .grid .reusable:last-child .head{
+    border-right:0
+}
+.slick-prev{
+    position:absolute;
+    right:0;
+    top:50%;
+    margin:-87px -2px 0 0;
+    padding:0;
+    width:51px;
+    height:174px;
+    border:0;
+    background:url(//cdn.daawat.com/cdn/farfuture/bd5AvzMKCTjI0loBojhtM7kYe5cIcNHKqd22cYRbC5g/mtime:1432717835/sites/all/themes/ltfoods/images/prev-cpy.png) right top no-repeat;
+    text-indent:999999px;
+    outline:0
+}
+.slick-next{
+    position:absolute;
+    left:0;
+    top:50%;
+    margin:-87px 0 0 0;
+    padding:0;
+    width:51px;
+    height:174px;
+    border:0;
+    background:url(//cdn.daawat.com/cdn/farfuture/eainaT2G-0c_GSbinGK8yyV1VnWxQ6GMdv_6X9qSw5Q/mtime:1432717835/sites/all/themes/ltfoods/images/next-copy.png) right top no-repeat;
+    text-indent:999999px;
+    outline:0
+}
+.view_all_recipe{
+    width:100%;
+    text-align:center;
+    margin:0;
+    padding:20px 0;
+    color:#cc8a4b;
+    font-size:24px;
+    clear:both
+}
+.sat_mstrbnr{
+    height:auto !important;
+    position:relative;
+    float:left;
+    width:100%
+}
+.cat_fro{
+    width:100%;
+    text-align:center;
+    float:left
+}
+.cat_list{
+    width:100%;
+    list-style:none;
+    margin:0;
+    padding:0 0 25px 0;
+    float:left
+}
+.cat_list li{
+    display:none;
+    float:left;
+    width:33.3333%;
+    height:auto
+}
+.cat_list li .catinr{
+    padding:10px
+}
+.cat_list li .grd{
+    width:100%;
+    height:auto;
+    position:relative;
+    border-radius:9px;
+    overflow:hidden
+}
+.cat_list li .img{
+    width:100%;
+    height:auto
+}
+.cat_list li .img img{
+    width:100%
+}
+.cat_list li .cont{
+    position:absolute;
+    text-align:center;
+    background:url(//cdn.daawat.com/cdn/farfuture/ogztuk8hOOJnZVw_u-gI56ag2kbf8ImBVbE2m-GGZbI/mtime:1432717835/sites/all/themes/ltfoods/images/catgr_overlybg.png) left top repeat;
+    left:50%;
+    width:80%;
+    margin-left:-40%;
+    top:50%;
+    color:#fff;
+    margin-top:-30px;
+    height:40px;
+    overflow:hidden
+}
+.cat_list li:hover .cont{
+    border-radius:9px;
+    -webkit-border-radius:8px
+}
+.cat_list li .inr{
+    padding:0 10px
+}
+.cat_list li .cont h3{
+    font-size:26px;
+    line-height:18px;
+    margin:0;
+    text-decoration:none;
+    color:#fff;
+    padding:14px 0 8px 0
+}
+.cat_list li .cont p{
+    font-weight:bold;
+    font-size:15px;
+    display:block
+}
+.cat_list li .cont .ancr.active{
+    display:inline-block
+}
+.cat_list li .cont p.active{
+    display:block
+}
+.cat_list li .cont .v_align{
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    vertical-align:middle;
+    width:88%
+}
+.cat_list li .cont .anc{
+    display:inline-block;
+    padding:0 0 0 15px;
+    text-decoration:none;
+    color:#fff;
+    background:url(//cdn.daawat.com/cdn/farfuture/oQ535_c9j8RLe4vx_SmiEMcuKD0iVsACdP_yHwYbpos/mtime:1432717835/sites/all/themes/ltfoods/images/nowmore_arw2.png) no-repeat 0 17px;
+    font-weight:bold;
+    font-size:17px
+}
+.cat_list li .cont .anc span{
+    display:block;
+    background:url(//cdn.daawat.com/cdn/farfuture/oQ535_c9j8RLe4vx_SmiEMcuKD0iVsACdP_yHwYbpos/mtime:1432717835/sites/all/themes/ltfoods/images/nowmore_arw2.png) no-repeat 100% 17px;
+    padding:10px 15px 0 0
+}
+.cat_filter{
+    width:100%;
+    list-style:none;
+    text-align:center;
+    float:left
+}
+.cat_filter li{
+    display:inline-block;
+    margin:0 10px;
+    height:38px;
+    line-height:36px;
+    width:auto;
+    font-size:16px;
+    font-weight:bold;
+    text-transform:uppercase
+}
+.cat_filter li span{
+    display:block;
+    border-radius:7px;
+    height:100%;
+    width:auto;
+    padding:0 8px;
+    color:#474747;
+    cursor:pointer
+}
+.cat_filter li span:hover{
+    background:#f1e3d1
+}
+.cat_filter li span.active{
+    background:#d78f47;
+    color:#fff
+}
+.ftr_resp{
+    list-style:none
+}
+.ftr_resp li{
+    float:left;
+    width:33.3333%;
+    min-height:500px
+}
+.ftr_resp li .ftr_respinr{
+    padding:10px
+}
+.ftr_resp li .ftr_respinr .img img{
+    width:100%
+}
+.ftr_resp li .ftr_respinr .rltv{
+    position:relative;
+    width:100%;
+    height:100%;
+    float:left
+}
+.ftr_resp li .ftr_respinr .overly{
+    height:45px;
+    position:absolute;
+    left:50%;
+    background:url(//cdn.daawat.com/cdn/farfuture/l3y0TVmahcfXHxmQ6s-iSppTO-abFcOh9CKXrWcX6w4/mtime:1432717835/sites/all/themes/ltfoods/images/bg_grn.png);
+    width:80%;
+    margin-left:-40%;
+    bottom:0;
+    overflow:hidden
+}
+.ftr_resp li .ftr_respinr .overly .overlyinr{
+    padding:10px;
+    text-align:center
+}
+.ftr_resp li .ftr_respinr h3{
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    line-height:normal;
+    margin:0 0 15px;
+    padding:0;
+    text-transform:uppercase;
+    width:100%;
+    word-wrap:break-word
+}
+.ftr_resp li .ftr_respinr p{
+    color:#fff;
+    font-size:14px;
+    margin:0;
+    padding:5px 0 14px 0
+}
+.ancr{
+    padding:0 0 0 15px;
+    margin-bottom:10px;
+    width:auto;
+    height:auto;
+    display:inline-block;
+    background:url(//cdn.daawat.com/cdn/farfuture/3XfHNTvqku25lPC8-f8oHJ9CLATZeTHP3qOYfJzHT10/mtime:1432717835/sites/all/themes/ltfoods/images/view_res_img.gif) no-repeat 0 center
+}
+.cat_list li .cont .ancr{
+    opacity:0;
+    padding:0 0 0 15px;
+    transform:translateY(100px);
+    transition:all .4s linear 0s
+}
+.cat_list li:hover .cont p{
+    opacity:1
+}
+.cat_list li:hover .cont .ancr{
+    opacity:1;
+    transform:translateY(0px);
+    transition-delay:.5s
+}
+.ancr span{
+    padding:0 15px 0 0;
+    display:block;
+    background:url(//cdn.daawat.com/cdn/farfuture/3XfHNTvqku25lPC8-f8oHJ9CLATZeTHP3qOYfJzHT10/mtime:1432717835/sites/all/themes/ltfoods/images/view_res_img.gif) no-repeat 100% center
+}
+.ancr a{
+    display:block;
+    border:1px solid #fff;
+    line-height:26px;
+    padding:0 10px;
+    font-size:14px;
+    color:#fff;
+    text-decoration:none;
+    padding-top:5px
+}
+.view_all_resp{
+    width:100%;
+    padding:40px 0 30px;
+    text-align:center;
+    float:left
+}
+.view_all_resp a{
+    background:url(//cdn.daawat.com/cdn/farfuture/zPIXGpM6558vKIG4NRgNNVNBkIZlyIFL85QJkdBLoNI/mtime:1432717835/sites/all/themes/ltfoods/images/dsh1.png) no-repeat 0 9px;
+    color:#cc8a4b;
+    display:inline-block;
+    line-height:25px;
+    padding-left:20px;
+    font-size:25px;
+    text-transform:uppercase;
+    text-decoration:none
+}
+.view_all_resp a span{
+    background:url(//cdn.daawat.com/cdn/farfuture/ClLBiZFFzHg49scdR52glraD6APNCzMBd_1tjjieHsk/mtime:1432717835/sites/all/themes/ltfoods/images/ds_icon4.png) no-repeat 100% 8px;
+    display:block;
+    padding-right:20px
+}
+ .view_all_resp a:hover{
+    background:url(//cdn.daawat.com/cdn/farfuture/CpN6M4Do5XoUZKTFeYSpYFbSUiVVLPvQKSGL4AfKbk0/mtime:1432717835/sites/all/themes/ltfoods/images/dsh1_hvr.png) no-repeat 0 9px;
+    color:#000
+}
+.view_all_resp a:hover span{
+    background:url(//cdn.daawat.com/cdn/farfuture/CpN6M4Do5XoUZKTFeYSpYFbSUiVVLPvQKSGL4AfKbk0/mtime:1432717835/sites/all/themes/ltfoods/images/dsh1_hvr.png) no-repeat 100% 9px
+}
+.all_res_dvdr{
+    width:100%;
+    height:18px;
+    background:url(//cdn.daawat.com/cdn/farfuture/Hwd4tPTKeH6rzY7tI6kASKeU7AYp5E73AsE-JWnoQqY/mtime:1432717835/sites/all/themes/ltfoods/images/all_res_dvdr.gif) repeat-x 0 0;
+    float:left;
+    margin:0
+}
+.cef_basmanti{
+    width:100%;
+    height:auto;
+    float:left;
+    padding:30px 0
+}
+.cef_basmanti .clms{
+    float:left
+}
+.cef_basmanti .clms_inr{
+    padding:10px
+}
+.cef_basmanti .chif_basm_cont{
+    padding:30px 0 0 0;
+    width:100%;
+    float:left
+}
+.cef_basmanti .chif_basm_cont .img{
+    position:relative
+}
+.cef_basmanti .chif_basm_cont .img img{
+    width:100%
+}
+.cef_basmanti .clms.chef_not{
+    width:52.5%
+}
+.cef_basmanti .clms.basmti_lvr{
+    width:47.5%
+}
+.cef_basmanti .clms.basmti_lvr .gloverLay{
+    width:80%;
+    left:10%;
+    height:90%
+}
+.clms.basmti_lvr p{
+    font-size:15px
+}
+.basmti_lvr .slick-slide{
+    position:relative
+}
+.basmti_lvr .btm_main{
+    width:100%;
+    height:auto;
+    padding:0;
+    overflow:hidden
+}
+.basmti_lvr .anc{
+    display:inline-block;
+    clear:both;
+    padding:0 0 0 15px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    font-size:15px
+}
+.basmti_lvr .anc span{
+    display:inline-block;
+    padding:0 15px 0 0
+}
+.basmti_lvr .name{
+    width:100%;
+    color:#fff;
+    font-weight:normal;
+    font-size:17px;
+    padding-bottom:20px
+}
+footer{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left
+}
+footer .top{
+    width:100%;
+    height:6px;
+    background:url(//cdn.daawat.com/cdn/farfuture/spKO0bPl_HK3-AQVnKcKD2CguwATuPzA23Meu80djfQ/mtime:1432717835/sites/all/themes/ltfoods/images/footer_top_grid.png) left top repeat-x;
+    margin:0;
+    padding:0;
+    float:left
+}
+footer .container{
+    width:100%;
+    margin:0;
+    padding:0 0 45px 0;
+    float:left;
+    background:#121212;
+    position:relative
+}
+footer .container .footer_logo{
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    float:left;
+    text-align:center
+}
+footer .container .nav_frame{
+    width:620px;
+    margin:0 auto;
+    padding:0
+}
+footer .container .nav_frame .left{
+    width:330px;
+    margin:0 auto;
+    padding:0
+}
+footer .container .nav_frame .left .heading{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    font-size:16px;
+    color:#fff;
+    text-align:center
+}
+footer .container .nav_frame .left .social_icons{
+    margin:0;
+    padding:20px 0 20px 85px;
+    float:left
+}
+footer .container .nav_frame .left .social_icons ul{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+footer .container .nav_frame .left .social_icons ul li{
+    width:auto;
+    margin:0;
+    padding:0 40px 0 40px;
+    float:left
+}
+footer .container .nav_frame .left .social_icons ul li a{
+    display:block;
+    height:21px;
+    font-size:0;
+    line-height:0
+}
+footer .container .nav_frame .left .social_icons ul li.twit a{
+    background:url(//cdn.daawat.com/cdn/farfuture/1ARSVfcAKZk2SnPWwlRH8wrB8Wm0TgS6cxIJcIMr8t4/mtime:1432717835/sites/all/themes/ltfoods/images/twitter_icon.png) no-repeat;
+    width:22px
+}
+footer .container .nav_frame .left .social_icons ul li.fb a{
+    background:url(//cdn.daawat.com/cdn/farfuture/MjfW5WL3wLLuKXPTEAZV75eEo40l3dsOnsY7EebBR2E/mtime:1432717835/sites/all/themes/ltfoods/images/facebook_icon.png) no-repeat;
+    width:13px
+}
+footer .container .nav_frame .left .social_icons ul li.pint a{
+    background:url(//cdn.daawat.com/cdn/farfuture/OFdg_L-8IeTLJHIX2Iso4xuCsUHPaOee87wtjXQJq94/mtime:1432717835/sites/all/themes/ltfoods/images/pintrest_icon.png) no-repeat;
+    width:19px
+}
+footer .container .nav_frame .left .social_icons ul li.linkin a{
+    background:url(//cdn.daawat.com/cdn/farfuture/19TR4gwiNwNstHwNyi8TiU6XYpmlHOw5lBzyytv5ypM/mtime:1432717835/sites/all/themes/ltfoods/images/linked_in.png) no-repeat;
+    width:23px
+}
+footer .container .nav_frame .left .social_icons ul li:last-child{
+    padding:0
+}
+footer .container .nav_frame .right{
+    width:250px;
+    margin:0;
+    padding:0;
+    float:right;
+    display:none
+}
+footer .container .nav_frame .right .heading{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    font-size:16px;
+    color:#fff;
+    text-align:center
+}
+footer .container .nav_frame .right .newsletter{
+    width:100%;
+    margin:0;
+    padding:20px 0 0 0;
+    float:left
+}
+footer .container .nav_frame .right .newsletter .txtbox{
+    width:85%;
+    margin:0;
+    padding:0 2%;
+    float:left;
+    background:#eee;
+    height:38px;
+    border:1px solid #828282;
+    border-right:0;
+    color:#111;
+    outline:0
+}
+ footer .container .nav_frame .right .newsletter .btn{
+    width:15%;
+    margin:0;
+    padding:0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/a1eOUJqifv27PfFldrkJk4W-CmTaMrSUqo24twJ6wOs/mtime:1432717835/sites/all/themes/ltfoods/images/newsletter_btn.png) center top no-repeat #eee;
+    height:38px;
+    border:1px solid #828282;
+    border-left:0;
+    outline:0
+}
+footer .bottom{
+    width:100%;
+    margin:0;
+    padding:30px 0;
+    float:left;
+    background:#262526;
+    text-align:center;
+    color:#fff;
+    font-size:17px;
+    position:relative;
+    display:block
+}
+footer .bottom .ftr_btminr{
+    padding:0 15px
+}
+footer .bottom .ftr_btminr a{
+    outline:0
+}
+footer .bottom .ftr_btminr span{
+    display:block;
+    font-size:11px
+}
+.ftr_clos_arw{
+    width:129px;
+    height:48px;
+    background:url(//cdn.daawat.com/cdn/farfuture/-6PsvmAueffPwUg8JytsGYOqnpkmeDjdMg3hJlkelhI/mtime:1432717835/sites/all/themes/ltfoods/images/scrol_totopimg.gif) no-repeat 0 0;
+    position:absolute;
+    bottom:-3px;
+    left:50%;
+    margin-left:-64px
+}
+.ftr_clos_arw.active{
+    background:url(//cdn.daawat.com/cdn/farfuture/co1x6SkL-y6YN-8wvRXb4iOxrR4mv7_oXpToz_x8jp4/mtime:1432717835/sites/all/themes/ltfoods/images/scrol_totopimg_active.gif) no-repeat 0 0
+}
+footer .bottom a{
+    color:#fff;
+    text-decoration:none
+}
+.about_us_logo{
+    width:208px;
+    margin:0 auto;
+    padding:30px 0 0 0
+}
+.about_section_one_cont{
+    width:60%;
+    margin:0 auto;
+    padding:20px 0 0 0;
+    text-align:center;
+    color:#293b8f;
+    font-size:45px
+}
+.about_section_one_cont span{
+    background:#f8f8f3;
+    margin:0;
+    padding:0 5px;
+    color:#293b8f
+}
+.about_section_one_cont .fifty_year{
+    width:40%;
+    margin:0 auto;
+    padding:0;
+    position:relative
+}
+.about_section_one_cont .fifty_year .line{
+    border-top:3px solid #293b8f;
+    position:absolute;
+    top:50%;
+    height:3px;
+    width:100%;
+    z-index:-1;
+    margin:-3px 0 0 0
+}
+.sec_two_go{
+    width:100%;
+    height:32px;
+    margin:70px 0 50px 0;
+    padding:0;
+    text-align:center
+}
+.sec_two_go a{
+    width:32px;
+    height:32px;
+    display:inline-block;
+    background:url(//cdn.daawat.com/cdn/farfuture/0PVYsBbSel-qZhyi3n8y2meoBIa_GeDbzNKrwjmt-5w/mtime:1432717835/sites/all/themes/ltfoods/images/change_sec_arrow.png) center top no-repeat;
+    background-size:cover;
+    font-size:0;
+    line-height:0
+}
+#section2 .heading{
+    margin:0;
+    padding:0;
+    width:100%;
+    float:left
+}
+#section2 .heading h2{
+    font-size:45px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#293b8f;
+    font-weight:normal
+}
+#section2 .heading h3{
+    font-size:27px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#000;
+    font-weight:normal
+}
+#section2 .map{
+    width:100%;
+    margin:0;
+    padding:40px 0 0 0;
+    float:left;
+    text-align:center
+}
+#section3 .heading{
+    margin:0;
+    padding:35px 0 0 0;
+    width:100%;
+    float:left
+}
+#section3 .heading h2{
+    font-size:45px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#293b8f;
+    font-weight:normal
+}
+#section3 .map{
+    width:100%;
+    margin:0;
+    padding:40px 0 0 0;
+    float:left;
+    text-align:center
+}
+#section4 .heading{
+    margin:0;
+    padding:35px 0 0 0;
+    width:100%;
+    float:left
+}
+#section4 .heading h2{
+    font-size:40px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#293b8f;
+    font-weight:normal
+}
+#section4 .heading h3{
+    font-size:22px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#000;
+    font-weight:normal
+}
+.farm_to_plate{
+    width:575px;
+    margin:0 auto;
+    padding:62px 0;
+    overflow:hidden;
+    clear:both
+}
+.farm_to_plate .left{
+    width:80px;
+    margin:0;
+    padding:0;
+    float:left;
+    overflow:hidden
+}
+.farm_to_plate .mid{
+    width:440px;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center
+}
+.farm_to_plate .right{
+    width:50px;
+    margin:0;
+    padding:0;
+    float:right
+}
+.tabs{
+    position:relative;
+    margin:0 auto;
+    width:69%
+}
+.tabs input{
+    position:absolute;
+    z-index:1000;
+    height:40px;
+    left:0;
+    top:0;
+    opacity:0;
+    -ms-filter:"alpha(opacity=0)";
+    filter:alpha(opacity=0);
+    cursor:pointer
+}
+.tabs input#tab-2{
+    left:120px
+}
+.tabs input#tab-3{
+    left:240px
+}
+.tabs input#tab-4{
+    left:360px
+}
+.tabs label{
+    font-size:15px;
+    line-height:40px;
+    height:40px;
+    position:relative;
+    padding:0 40px;
+    float:left;
+    display:block;
+    color:#000;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-weight:bold;
+    text-align:center;
+    border-radius:3px 3px 0 0;
+    cursor:pointer;
+    background:url(//cdn.daawat.com/cdn/farfuture/EBF0BrURdj-bDGKT8WtZzdyOAN5Td2cvuGJ16YBpsyY/mtime:1432717835/sites/all/themes/ltfoods/images/tab-devider.jpg) right center no-repeat
+}
+.nobg{
+    background:none !important
+}
+.tabs label:after{
+    content:'';
+    position:absolute;
+    bottom:-2px;
+    left:0;
+    width:100%;
+    height:2px;
+    display:block
+}
+ .tabs input:hover+label{
+    color:#293b8f
+}
+.tabs label:first-of-type{
+    z-index:4
+}
+.tab-label-2{
+    z-index:3
+}
+.tab-label-3{
+    z-index:2
+}
+.tab-label-4{
+    z-index:1;
+    color:#293b8f
+}
+.tabs input:checked+label{
+    z-index:6;
+    color:#293b8f
+}
+.clear-shadow{
+    clear:both
+}
+.content{
+    background:#f8f8f3;
+    position:relative;
+    width:100%;
+    min-height:306px;
+    z-index:5;
+    border-radius:9px;
+    margin-top:15px;
+    border:1px solid #747471
+}
+.content div{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:10px 10px;
+    z-index:1;
+    opacity:0;
+    -webkit-transition:opacity linear .1s;
+    -moz-transition:opacity linear .1s;
+    -o-transition:opacity linear .1s;
+    -ms-transition:opacity linear .1s;
+    transition:opacity linear .1s
+}
+.tabs input.tab-selector-1:checked~.content .content-1,.tabs input.tab-selector-2:checked~.content .content-2,.tabs input.tab-selector-3:checked~.content .content-3,.tabs input.tab-selector-4:checked~.content .content-4{
+    z-index:100;
+    -ms-filter:"alpha(opacity=100)";
+    filter:alpha(opacity=100);
+    opacity:1;
+    -webkit-transition:opacity ease-out .2s .1s;
+    -moz-transition:opacity ease-out .2s .1s;
+    -o-transition:opacity ease-out .2s .1s;
+    -ms-transition:opacity ease-out .2s .1s;
+    transition:opacity ease-out .2s .1s;
+    width:100%
+}
+.content div h2,.content div h3{
+    color:#398080;
+    width:56%;
+    float:right;
+    text-align:center
+}
+.content div h2 img{
+    width:100%
+}
+.content div p{
+    font-size:16px;
+    line-height:1.7;
+    text-align:left;
+    margin:20px 0 0 0;
+    color:#777;
+    width:44%;
+    float:right;
+    text-align:center;
+    padding-left:7px
+}
+.tab_container{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left
+}
+.tab_left_{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left
+}
+.multiple-items{
+    padding:50px 0 0 0
+}
+.multiple-items .slick-slide img{
+    width:auto
+}
+.multiple-items .slick-next{
+    background:url(//cdn.daawat.com/cdn/farfuture/XLepla2ntXpxbb7-D72UIIVhdEDHpihgwPjbzwt-X_c/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow_right.png) no-repeat scroll center center #f8f8f3;
+    height:96px;
+    left:98%;
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:43px;
+    width:34px
+}
+.multiple-items .slick-prev{
+    background:url(//cdn.daawat.com/cdn/farfuture/0dPNDqfVKSQwFkX1ccsz2hHRX6UoLjJ5aCPd0kjEaSI/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow.png) no-repeat scroll center center #f8f8f3;
+    height:96px;
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:98%;
+    top:43px;
+    width:34px
+}
+.about_btm{
+    width:100%;
+    margin:0 auto;
+    padding:70px 0 30px 0;
+    clear:both;
+    text-align:center
+}
+.about_btm p{
+    text-align:center;
+    margin:0;
+    padding:0 0 20px 0;
+    color:#411f20;
+    font-size:22px
+}
+.section{
+    width:100%;
+    float:left;
+    position:relative
+}
+.subnav_main{
+    position:fixed;
+    top:200px;
+    right:2%;
+    width:auto;
+    z-index:9999;
+    transition:1s all
+}
+.subnav_main.top{
+    top:0
+}
+.subnav_main ul{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+.subnav_main ul li{
+    list-style:none;
+    margin:0 0 20px 0;
+    padding:0;
+    float:none;
+    font-size:19px;
+    text-align:right
+}
+.subnav_main ul li a{
+    color:#d68e46;
+    text-decoration:none;
+    width:60px;
+    height:60px;
+    display:block;
+    outline:0
+}
+.subnav_main ul li a.dawat{
+    background:url(//cdn.daawat.com/cdn/farfuture/dJ_YfD__LYuegttnnhzqSLBPeBeXQXUwSsHbOWH-oAo/mtime:1432717835/sites/all/themes/ltfoods/images/dawat-icon.png) 0 0 no-repeat
+}
+.subnav_main ul li a.finding_dawat{
+    background:url(//cdn.daawat.com/cdn/farfuture/LPpZ2PuAGwx87c6BYcur3Bl5dgZkEQyeXvPET4ysFls/mtime:1432717835/sites/all/themes/ltfoods/images/finding-dawat.png) 0 0 no-repeat
+}
+.subnav_main ul li a.farmtoplate{
+    background:url(//cdn.daawat.com/cdn/farfuture/34Yq7zqiYLmjfOE-33o80Ti_daGMWm6Xp5L7zWHgmrc/mtime:1432717835/sites/all/themes/ltfoods/images/farm-to-plate.png) 0 0 no-repeat
+}
+.subnav_main ul li a.basmatifacts{
+    background:url(//cdn.daawat.com/cdn/farfuture/5c2voH-VZbmk7uAHq-fyMoWXLhVMAJ1bo5gdTvbZLQg/mtime:1432717835/sites/all/themes/ltfoods/images/explore-the-verity.png) 0 0 no-repeat
+}
+.subnav_main ul li a.whoweworkwith{
+    background:url(//cdn.daawat.com/cdn/farfuture/b6iyyoFqg88Cksk5rZgcEO4FrOYuMPnplKjH_zE7ozM/mtime:1432717835/sites/all/themes/ltfoods/images/hand-and-hand.png) 0 0 no-repeat
+}
+.subnav_main ul li a:hover{
+    background-position:-67px 0
+}
+.subnav_main ul li a.active{
+    background-position:-134px 0;
+    outline:0
+}
+.subnav_main ul li a:hover{
+    color:#283891;
+    text-decoration:none
+}
+.subnav_main ul li.dawat-icon{
+    background:url(//cdn.daawat.com/cdn/farfuture/dJ_YfD__LYuegttnnhzqSLBPeBeXQXUwSsHbOWH-oAo/mtime:1432717835/sites/all/themes/ltfoods/images/dawat-icon.png) right center no-repeat
+}
+.subnav_main ul li.dawat-icon2{
+    background:url(//cdn.daawat.com/cdn/farfuture/LPpZ2PuAGwx87c6BYcur3Bl5dgZkEQyeXvPET4ysFls/mtime:1432717835/sites/all/themes/ltfoods/images/finding-dawat.png) right center no-repeat
+}
+.subnav_main ul li.dawat-icon3{
+    background:url(//cdn.daawat.com/cdn/farfuture/34Yq7zqiYLmjfOE-33o80Ti_daGMWm6Xp5L7zWHgmrc/mtime:1432717835/sites/all/themes/ltfoods/images/farm-to-plate.png) right center no-repeat
+}
+.subnav_main ul li.dawat-icon4{
+    background:url(//cdn.daawat.com/cdn/farfuture/5c2voH-VZbmk7uAHq-fyMoWXLhVMAJ1bo5gdTvbZLQg/mtime:1432717835/sites/all/themes/ltfoods/images/explore-the-verity.png) right center no-repeat
+}
+.subnav_main ul li.dawat-icon5{
+    background:url(//cdn.daawat.com/cdn/farfuture/b6iyyoFqg88Cksk5rZgcEO4FrOYuMPnplKjH_zE7ozM/mtime:1432717835/sites/all/themes/ltfoods/images/hand-and-hand.png) right center no-repeat
+}
+.recipie_heading{
+    color:#d78f47;
+    float:left;
+    font-size:40px;
+    font-weight:normal;
+    line-height:50px;
+    margin:0;
+    padding:4% 0 0 0;
+    text-align:left;
+    text-transform:uppercase;
+    width:100%
+}
+.recipie_image{
+    float:left;
+    width:44%;
+    position:relative
+}
+.recipie_image img{
+    height:auto;
+    max-width:100%
+}
+.recipie_ingredient{
+    float:left;
+    width:50%
+}
+.recipie_ingredient p{
+    color:#000;
+    font-size:14px;
+    font-weight:bold;
+    margin:0 0 0 20px;
+    padding:9px 0;
+    text-transform:uppercase
+}
+.ingredient{
+    border-bottom:1px solid #000;
+    border-top:1px solid #000;
+    margin:0 0 15px 20px;
+    padding:10px;
+    width:70%
+}
+.section-recipe{
+    padding:100px 0 50px 0
+}
+.instructions{
+    border-bottom:1px solid #000;
+    border-top:1px solid #000;
+    margin:0 0 15px 0;
+    padding:10px;
+    width:55%
+}
+.recipie_instruction{
+    float:left;
+    margin-top:20px;
+    width:80%
+}
+.recipie_instruction p{
+    color:#000;
+    font-size:14px;
+    font-weight:bold;
+    padding:9px 0;
+    text-transform:uppercase
+}
+.back_recipe{
+    display:inline-block;
+    float:right;
+    padding:34px 0;
+    position:fixed;
+    right:30px;
+    text-align:right
+}
+.section-reach{
+    padding:20px 0 50px 0
+}
+.reach_heading{
+    color:#d78f47;
+    float:left;
+    font-size:60px;
+    font-weight:normal;
+    line-height:50px;
+    margin:0;
+    margin-bottom:20px;
+    padding:0;
+    text-align:center;
+    text-transform:uppercase;
+    width:100%;
+    margin-top:20px
+}
+.section-reach p{
+    color:#777;
+    font-size:19px;
+    margin:0;
+    padding:7px 0;
+    text-align:center
+}
+.reach-form{
+    margin:0 auto;
+    max-width:500px;
+    padding:25px 15px 25px 10px;
+    text-align:center;
+    position:relative
+}
+.reach-form label{
+    color:#000;
+    display:inline-block;
+    font-size:14px;
+    text-align:center
+}
+.reach-form input[type="text"],.reach-form input[type="email"],.reach-form textarea{
+    border:1px solid #dadada;
+    box-shadow:inset 0 1px 4px #ececec;
+    color:#888;
+    font-size:12px;
+    height:40px;
+    line-height:15px;
+    margin-bottom:16px;
+    margin-right:6px;
+    margin-top:2px;
+    moz-box-shadow:inset 0 1px 4px #ececec;
+    outline:0 none;
+    padding:3px 3px 3px 5px;
+    webkit-box-shadow:inset 0 1px 4px #ececec;
+    width:70%
+}
+.reach-form textarea{
+    height:100px;
+    margin:4px auto
+}
+.section-reach h5{
+    margin:0;
+    padding:7px 0;
+    text-align:center;
+    font-size:16px
+}
+.reach-form .button{
+    background:#d78f47;
+    border:2px solid #636363;
+    color:#FFF;
+    cursor:pointer;
+    padding:10px 25px 10px 25px;
+    width:70%
+}
+#section1{
+    padding:84px 0 0;
+    text-shadow:none
+}
+#section1 .banner{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left
+}
+#section1 .banner img{
+    width:100%
+}
+#section2{
+    padding:114px 0 0;
+    text-shadow:none
+}
+#section4{
+    text-shadow:none
+}
+.about #section5,.about #section3,.about #section4{
+    padding:114px 0 0
+}
+#section5{
+    text-shadow:none
+}
+#section3{
+    text-shadow:none
+}
+#section5 .heading h2{
+    color:#293b8f;
+    font-size:45px;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    text-align:center
+}
+#section5 .heading h3{
+    color:#000;
+    font-size:27px;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+    text-align:center
+}
+.inner_wrap{
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/RcMhYsz6NbNhjOWnVvXpATZvMMCDAwDdeVLELpk_cjw/mtime:1432717835/sites/all/themes/ltfoods/images/inner_bg_prd1.png) center top repeat-y;
+    background-size:100%
+}
+.inner_wrap-tab1{
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/EbMGC3nPoe-U1Xe1JbRUNz0mOvW5WZm6qobHM5PZrl8/mtime:1432717835/sites/all/themes/ltfoods/images/biriyani-basmati-tab1-bg.png) center top repeat-y;
+    background-size:100%
+}
+ .inner_wrap-tab2{
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/3A9cubvwLMV9qD87UPk_igIKWMSwkDGtUjDLnQmM_3c/mtime:1432717835/sites/all/themes/ltfoods/images/biriyani-basmati-tab2-bg.png) center top repeat-y;
+    background-size:100%
+}
+.inner_wrap-tab3{
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/WvQLt7g-VweC2xqy1YhjTwi-G2BM_n0q_al39jV6Z4o/mtime:1432717835/sites/all/themes/ltfoods/images/biriyani-basmati-tab3-bg.png) center top repeat-y;
+    background-size:100%
+}
+.inner_wrap-tab4{
+    width:100%;
+    margin:0;
+    padding:20px 0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/f_YvqOmuwhyYXm30YqoqtiaH_2D8_iVMDJOXoZ1PwDo/mtime:1432717835/sites/all/themes/ltfoods/images/biriyani-basmati-tab4-bg.png) left top repeat
+}
+.inner_wrap h2{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:16px;
+    color:#40251c
+}
+.inner_wrap h3{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:42px;
+    color:#40251c;
+    text-decoration:underline
+}
+.inner_wrap h4{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:16px;
+    color:#40251c;
+    line-height:10px
+}
+.section h3{
+    margin:0;
+    padding-bottom:10px;
+    text-align:center;
+    font-size:42px;
+    color:#40251c;
+    text-decoration:underline
+}
+.section h4{
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
+    font-size:16px;
+    color:#40251c;
+    line-height:10px
+}
+.inner_wrap .container{
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+    text-align:center;
+    font-size:16px;
+    color:#40251c;
+    line-height:1.4
+}
+.ready-in-15min{
+    width:30%;
+    margin:0 auto;
+    padding:20px 0 0 0;
+    overflow:auto
+}
+.ready-in-15min img{
+    width:100%
+}
+.prd_desc_wrap{
+    width:60%;
+    margin:20px auto;
+    padding:0
+}
+.prd_desc_wrap .left{
+    width:50%;
+    margin:0;
+    padding:0;
+    float:left
+}
+.prd_desc_wrap .left img{
+    width:100%
+}
+.prd_desc_wrap .right{
+    width:44%;
+    margin:0;
+    padding:0;
+    float:right
+}
+.prd_desc_wrap .right h2{
+    text-align:left;
+    margin:30px 0 0 0;
+    padding:0;
+    font-size:30px;
+    color:#40251c
+}
+.prd_desc_wrap .right p{
+    text-align:left;
+    margin:0;
+    padding:0;
+    color:#40251c
+}
+.availability{
+    width:30%;
+    margin:20px auto;
+    padding:5px;
+    border:1px solid #40251c;
+    color:#40251c;
+    font-size:18px;
+    text-align:center
+}
+.prd_desc_wrap .availability{
+    width:100%;
+    margin:40px 0;
+    padding:5px;
+    border:1px solid #40251c;
+    color:#40251c;
+    font-size:18px;
+    text-align:center
+}
+.benifits{
+    width:100%;
+    margin:100px auto 0 auto;
+    padding:0
+}
+.benifits h2{
+    font-size:50px;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#40251c;
+    text-decoration:underline
+}
+.benifits ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    display:inline-block;
+    text-align:center
+}
+.benifits ul li{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    text-align:center;
+    width:33%
+}
+.benifits ul li span{
+    font-size:13px;
+    text-align:center;
+    color:#000;
+    clear:both;
+    font-size:24px;
+    line-height:50px
+}
+.inner-btm-cta{
+    width:100%;
+    margin:100px 0;
+    padding:0;
+    float:left;
+    text-align:center
+}
+.container{
+    width:74%;
+    margin:0 auto;
+    padding:0 30px;
+    text-align:center
+}
+ul.tabs{
+    display:block;
+    float:none;
+    list-style:outside none none;
+    margin:0 auto;
+    padding:25px 0 0 0;
+    width:710px;
+    text-align:center;
+    z-index:1
+}
+ul.tabs li{
+    color:#222;
+    display:inline-block;
+    padding:10px 10px;
+    cursor:pointer;
+    font-size:19px
+}
+ul.tabs li span{
+    display:block;
+    border-radius:7px;
+    height:100%;
+    width:auto;
+    padding:10px 17px;
+    color:#474747;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold
+}
+ul.tabs li span:hover{
+    background:#f1e3d1
+}
+ul.tabs li span.current{
+    background:#d78f47;
+    color:#fff
+}
+ul.tabs li:last-child{
+    background:none
+}
+ul.tabs li.current{
+    color:#293b8f
+}
+.tab-content{
+    display:none;
+    padding:15px;
+    min-height:250px;
+    padding:100px 0 0 0;
+    z-index:-99;
+    position:relative
+}
+.tab-content p{
+    text-align:center;
+    font-size:16px;
+    line-height:1.5
+}
+.tab-content.current{
+    display:block;
+    z-index:99
+}
+.facts .slick-prev{
+    background:url(//cdn.daawat.com/cdn/farfuture/XLepla2ntXpxbb7-D72UIIVhdEDHpihgwPjbzwt-X_c/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow_right.png) left top no-repeat;
+    height:30px;
+    margin:-12px -40px 0 0;
+    position:absolute;
+    width:33px
+}
+.facts .slick-next{
+    background:url(//cdn.daawat.com/cdn/farfuture/0dPNDqfVKSQwFkX1ccsz2hHRX6UoLjJ5aCPd0kjEaSI/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow.png) left top no-repeat;
+    height:30px;
+    margin:-12px 0 0 -40px;
+    position:absolute;
+    width:33px
+}
+.facts .slick-dots{
+    bottom:-130px;
+    margin:0 -63px 0 0;
+    padding:0;
+    position:absolute;
+    right:50%;
+    width:auto
+}
+.facts .slick-slide{
+    padding:0 20px;
+    text-align:center;
+    font-size:24px;
+    line-height:40px;
+    color:#d48e4d
+}
+#tab-9{
+    margin:0
+}
+.tips .slick-prev{
+    background:url(//cdn.daawat.com/cdn/farfuture/XLepla2ntXpxbb7-D72UIIVhdEDHpihgwPjbzwt-X_c/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow_right.png) left top no-repeat;
+    height:30px;
+    margin:0 -40px 0 0;
+    position:absolute;
+    width:33px
+}
+.tips .slick-next{
+    background:url(//cdn.daawat.com/cdn/farfuture/0dPNDqfVKSQwFkX1ccsz2hHRX6UoLjJ5aCPd0kjEaSI/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow.png) left top no-repeat;
+    height:30px;
+    margin:0 0 0 -40px;
+    position:absolute;
+    width:33px
+}
+.tips .slick-dots{
+    bottom:-130px;
+    margin:0 -63px 0 0;
+    padding:0;
+    position:absolute;
+    right:50%;
+    width:auto
+}
+.tips .slick-slide{
+    padding:0 20px;
+    text-align:center;
+    font-size:24px;
+    line-height:40px;
+    color:#d48e4d
+}
+.dishes-to-cook{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:left
+}
+.spec-meter{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:left
+}
+.dishes-to-cook h2{
+    margin:0;
+    padding:0 0 0 60px;
+    color:#40251c;
+    font-size:30px;
+    line-height:normal;
+    text-align:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/0pj9UFZ8dSxDEqiZPRqDvIksm5jcEQSunoqYVTDag5k/mtime:1432717835/sites/all/themes/ltfoods/images/cooker-icon.png) left 4px no-repeat
+}
+ .dishes-to-cook ul{
+    list-style:none;
+    margin:0;
+    padding:0
+}
+.dishes-to-cook ul li{
+    margin:0;
+    padding:7px 0 7px 40px;
+    font-size:20px;
+    color:#40251c
+}
+.spec-meter h2{
+    margin:0;
+    padding:0;
+    color:#40251c;
+    font-size:30px;
+    line-height:normal;
+    text-align:left
+}
+#tab-10,#tab-11,#tab-12,#tab-13,#tab-14,#tab-15{
+    padding:0 !important
+}
+.reach-us_sep{
+    background:url(//cdn.daawat.com/cdn/farfuture/ciAizpTBYlhx-ZFnK33s9c_wbYtiR_8KRITX8W84Vps/mtime:1432717835/sites/all/themes/ltfoods/images/separator.png) center bottom no-repeat
+}
+#section3.hasanimate .farm_to_plate .right,#section3.hasanimate .farm_to_plate .mid,#section3.hasanimate .farm_to_plate .left{
+    visibility:hidden
+}
+#section3.hasanimate .farm_to_plate .right.visible,#section3.hasanimate .farm_to_plate .mid.visible,#section3.hasanimate .farm_to_plate .left.visible{
+    visibility:visible
+}
+.content-text1{
+    text-align:center;
+    padding-top:70px
+}
+.content-text2{
+    text-align:center;
+    padding-top:24px
+}
+.content-text3{
+    text-align:center;
+    padding-top:110px
+}
+.content-text4{
+    text-align:center;
+    padding-top:16px
+}
+.about-we{
+    width:86%;
+    margin:0 auto
+}
+#section5.section5{
+    padding-top:170px
+}
+#section5.section5 .tab-content{
+    padding-top:60px
+}
+.overlyinr h3{
+    text-decoration:none
+}
+.tabs.imgtab input:checked+label,.parralax.tabs li.current{
+    background:#d78f47 !important;
+    color:#fff
+}
+section.imgtab.tabs label{
+    padding:0 2%;
+    font-size:16px
+}
+.imgtab.tabs label,.parralax.tabs li{
+    display:inline;
+    border-radius:7px;
+    height:100%;
+    width:auto;
+    padding:10px 17px;
+    color:#474747;
+    cursor:pointer;
+    font-size:16px;
+    background-image:none;
+    margin:0 10px
+}
+.parralax.tabs li:hover{
+    background:#f1e3d1
+}
+.tips .flexslider,.facts .flexslider{
+    background:none repeat scroll 0 0 rgba(0,0,0,0);
+    border:medium none;
+    border-radius:0;
+    box-shadow:none;
+    margin:0
+}
+.tips .flexslider li,.facts .flexslider li{
+    color:#fff;
+    display:none;
+    font-size:22px;
+    line-height:30px;
+    min-height:202px;
+    padding:7% 0 0;
+    text-align:center;
+    text-shadow:0 0 1px #fff
+}
+.tips .flexslider .flex-direction-nav .flex-prev,.facts .flexslider .flex-direction-nav .flex-prev{
+    background:url(//cdn.daawat.com/cdn/farfuture/0dPNDqfVKSQwFkX1ccsz2hHRX6UoLjJ5aCPd0kjEaSI/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow.png) no-repeat scroll left top rgba(0,0,0,0);
+    height:30px;
+    margin:-30px 0 0 0;
+    position:absolute;
+    width:33px;
+    left:-40px;
+    opacity:1
+}
+.tips .flexslider:hover .flex-direction-nav .flex-prev,.facts .flexslider:hover .flex-direction-nav .flex-prev{
+    left:-40px;
+    opacity:1
+}
+.facts .flex-direction-nav a.flex-next::before,.tips .flex-direction-nav a.flex-next::before,.tips .flex-direction-nav a::before,.facts .flex-direction-nav a::before{
+    content:""
+}
+.facts .flexslider .flex-direction-nav .flex-next,.tips .flexslider .flex-direction-nav .flex-next{
+    background:url(//cdn.daawat.com/cdn/farfuture/XLepla2ntXpxbb7-D72UIIVhdEDHpihgwPjbzwt-X_c/mtime:1432717835/sites/all/themes/ltfoods/images/multiple_scroll_arrow_right.png) no-repeat scroll left top rgba(0,0,0,0);
+    height:30px;
+    margin:-30px 0 0 0;
+    position:absolute;
+    width:33px;
+    right:-40px;
+    opacity:1
+}
+.tips .flexslider:hover .flex-direction-nav .flex-next,.facts .flexslider:hover .flex-direction-nav .flex-next{
+    right:-40px;
+    opacity:1
+}
+.frm-to-palte-img{
+    background-attachment:fixed;
+    background-clip:border-box;
+    background-color:rgba(0,0,0,0);
+    background-image:url(//cdn.daawat.com/cdn/farfuture/Vw15GMV6GifSleI_Hpvv8dZP2dVRrvCtlVqIx0jVJGk/mtime:1432717835/sites/all/themes/ltfoods/images/background-fork.jpg);
+    background-origin:padding-box;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover
+}
+.cat_list li .cont.active .v_align{
+    padding-top:38%
+}
+.container p.rozana{
+    font-size:18px
+}
+.container h3.small{
+    font-size:32px
+}
+.control ul li{
+    display:inline-block;
+    padding:0
+}
+.control ul{
+    margin-top:0;
+    padding:0 0 3%
+}
+.control ul li a{
+    background:url(//cdn.daawat.com/cdn/farfuture/hrcwsDfkxYCYBU9f1Iz2sHoNXUF0RtjWAr65CXwpX-o/mtime:1432717835/sites/all/themes/ltfoods/images/play-control.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    display:block;
+    float:left;
+    font-size:0;
+    height:52px;
+    outline:medium none;
+    width:53px
+}
+.control ul li a.prev{
+    background-position:-10px -137px
+}
+.control ul li a.prev:hover{
+    background-position:-65px -137px
+}
+ .control ul li a.prev:active{
+    background-position:-121px -138px
+}
+.control ul li a.play{
+    background-position:-120px -73px
+}
+.control ul li a.play.pause{
+    background-position:-10px -73px
+}
+.control ul li a.play.pause:hover{
+    background-position:-65px -73px
+}
+.control ul li a.next{
+    background-position:-11px -2px
+}
+.control ul li a.next:hover{
+    background-position:-66px -2px
+}
+.control ul li a.next:active{
+    background-position:-121px -2px
+}
+.flex-pauseplay a{
+    visibility:hidden
+}
+.cat_list li:hover .cont{
+    height:100%;
+    left:0;
+    margin:0;
+    top:0;
+    width:100%
+}
+.cat_list li:hover .cont .v_align{
+    margin:0 auto;
+    padding-top:40%;
+    position:relative
+}
+.no-padding{
+    padding:0
+}
+#section2 .map img.primary{
+    position:absolute;
+    transition:all 1s linear 0s
+}
+#section2 .map img.primary{
+    left:15%
+}
+#section2 .map img.primary.active{
+    opacity:0
+}
+.social_icons a{
+    outline:0
+}
+.navigation ul a{
+    outline:0
+}
+#section1.aboutfirst{
+    background:url(//cdn.daawat.com/cdn/farfuture/JHjsb9VHrXv0RGRW8ctboZQMuSTXl2MZ5X7HHj2Q1Ts/mtime:1432717835/sites/all/themes/ltfoods/images/about-sec-banner.jpg) no-repeat fixed center 75px / cover rgba(0,0,0,0)
+}
+.aboutfirst .patchbg{
+    background:url(//cdn.daawat.com/cdn/farfuture/TWE-fhgJVRCzdRRF4_6kYzV-qTGbKO2bBExQBxHJ2d0/mtime:1432717835/sites/all/themes/ltfoods/images/pattern.png) repeat scroll 0 0 rgba(0,0,0,0);
+    height:100%;
+    position:absolute;
+    top:0;
+    width:100%
+}
+.aboutfirst .bannertxt{
+    position:relative;
+    text-align:center;
+    top:39%
+}
+.aboutfirst .bannertxt .txt{
+    color:#fff;
+    font-size:28px;
+    font-weight:bold;
+    line-height:35px;
+    text-shadow:-1px 0 #2e2627,0 1px #2e2627,1px 0 #2e2627,0 -1px #2e2627
+}
+.aboutfirst .bannertxt .txt .twobdr::before{
+    background:url(//cdn.daawat.com/cdn/farfuture/UP8RfadWqLyWCj56aPHgMEjHYfKo8JULrMQ-pxuyPsA/mtime:1432717835/sites/all/themes/ltfoods/images/dash-bnr.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    content:"";
+    height:5px;
+    left:-77px;
+    position:absolute;
+    top:8px;
+    width:69px
+}
+.aboutfirst .bannertxt .txt .twobdr::after{
+    background:url(//cdn.daawat.com/cdn/farfuture/UP8RfadWqLyWCj56aPHgMEjHYfKo8JULrMQ-pxuyPsA/mtime:1432717835/sites/all/themes/ltfoods/images/dash-bnr.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    content:"";
+    height:5px;
+    right:-77px;
+    position:absolute;
+    top:8px;
+    width:69px
+}
+.aboutfirst .bannertxt .txt .twobdr{
+    position:relative;
+    width:100%
+}
+.content table{
+    color:#777;
+    font-size:16px;
+    line-height:1.7
+}
+.content table img{
+    width:458px;
+    height:auto
+}
+.second_slide .banner.home{
+    background-image:url(//cdn.daawat.com/cdn/farfuture/CxzfgwVKj3JmIr94NwvGsjbv7Kmtj4qCHm6sxhljCbY/mtime:1432717835/sites/all/themes/ltfoods/images/finest-rice-homepage.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:0 -60px;
+    background-size:cover;
+    height:473px;
+    position:relative
+}
+.second_slide .banner.home .pattern{
+    background:url(//cdn.daawat.com/cdn/farfuture/TWE-fhgJVRCzdRRF4_6kYzV-qTGbKO2bBExQBxHJ2d0/mtime:1432717835/sites/all/themes/ltfoods/images/pattern.png) repeat scroll 0 0 rgba(0,0,0,0);
+    height:100%;
+    position:absolute;
+    top:0;
+    width:100%;
+    background-attachment:fixed
+}
+.norel{
+    float:left;
+    width:100%
+}
+.view_all_resp a{
+    outline:0
+}
+.banner.home .pattern .txt.txt{
+    left:0;
+    margin:0;
+    text-align:center;
+    top:33%;
+    width:100%
+}
+.banner.home .pattern .txt.txt h2{
+    color:#fff;
+    font-size:40px;
+    font-weight:bold;
+    margin:0;
+    text-align:center
+}
+.banner.home .pattern .txt.txt h2 a{
+    color:#fff;
+    outline:medium none;
+    text-decoration:none;
+    text-shadow:-1px 0 #2e2627,0 1px #2e2627,1px 0 #2e2627,0 -1px #2e2627
+}
+.banner.home .pattern .txt.txt h2 a span{
+    display:block;
+    font-size:22px;
+    margin:0 auto;
+    padding-top:11px;
+    position:relative;
+    width:480px;
+    line-height:64px
+}
+.banner.home .pattern .txt.txt h2 a span em{
+    font-family:arial;
+    font-style:normal
+}
+.banner.home .pattern .txt.txt h2 a span::before{
+    background:none repeat scroll 0 0 #fff;
+    box-shadow:0 0 0 1px #2e2627;
+    content:"";
+    height:3px;
+    left:0;
+    position:absolute;
+    text-align:left;
+    width:100%
+}
+.page-node-29 .section-reach .status{
+    background:rgba(0,0,0,0) none repeat scroll 0 0;
+    border:medium none;
+    margin:0 auto;
+    padding:0;
+    width:44%
+}
+.page-node-29 .reach-us_sep{
+    background:rgba(0,0,0,0) none repeat scroll 0 0
+}
+.imgtab .tab_wrap{
+    float:left;
+    text-align:center;
+    width:100%
+}
+.imgtab .tab_wrap a{
+    border-radius:7px;
+    color:#474747;
+    font-size:18px;
+    font-weight:bold;
+    height:40px;
+    letter-spacing:1px;
+    line-height:40px;
+    outline:medium none;
+    padding:10px 2%;
+    text-decoration:none
+}
+.imgtab .tab_wrap a.active{
+    background:#d78f47 none repeat scroll 0 0;
+    color:#fff
+}
+.imgtab .content div.active{
+    opacity:1
+}
+#section5 .map::before{
+    background:url(//cdn.daawat.com/cdn/farfuture/TWE-fhgJVRCzdRRF4_6kYzV-qTGbKO2bBExQBxHJ2d0/mtime:1432717835/sites/all/themes/ltfoods/images/pattern.png) repeat scroll 0 0 rgba(0,0,0,0);
+    content:"";
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%
+}
+#section5 .map{
+    background:url(//cdn.daawat.com/cdn/farfuture/I4Ygft5qSr3hOuIZBEB_Kdg0_EBQz_P1ZEJmWN3VKDM/mtime:1432717835/sites/all/themes/ltfoods/images/tab-bg-1.jpg) no-repeat fixed center center / 100% auto rgba(0,0,0,0);
+    position:relative;
+    top:0;
+    z-index:10;
+    min-height:400px
+}
+#section5 .map.sbg{
+    background-image:url(//cdn.daawat.com/cdn/farfuture/QX-Ah2I8LESTC4xckdZQEICiWMgNj_rvJt6pjk18TGs/mtime:1432717835/sites/all/themes/ltfoods/images/tab-bg.jpg)
+}
+#section5 .map::after{
+    background:none repeat scroll 0 0 #f8f8f3;
+    content:"";
+    height:84px;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%
+}
+.roz{
+    width:36%
+}
+.absicon{
+    position:absolute;
+    top:5px;
+    left:5px;
+    display:none
+}
+.absicon.yes{
+    display:block
+}
+.absicon img{
+    width:60% !important;
+    height:auto
+}
+.mnav{
+    display:none
+}
+.reach-form input.error{
+    box-shadow:0 0 4px 0 red inset
+}
+.reach-form .msg em{
+    background:none repeat scroll 0 0 #000;
+    content:"";
+    display:block;
+    height:12px;
+    left:-5px;
+    position:absolute;
+    top:11px;
+    transform:rotate(46deg);
+    width:12px
+}
+.reach-form .msg{
+    background:none repeat scroll 0 0 #000;
+    border-radius:3px;
+    box-shadow:1px 1px 0 1px;
+    color:#fff;
+    font-size:13px;
+    margin-top:3px;
+    padding:9px;
+    position:absolute;
+    right:-34%;
+    width:49%
+}
+.sfilter .currentval{
+    display:none
+}
+.tearms h1{
+    float:left;
+    font-size:30px;
+    padding-top:50px;
+    text-align:center;
+    width:100%
+}
+.tearms p{
+    font-size:14px
+}
+.tearms .inner{
+    margin:0 auto;
+    width:87%
+}
+.tearms p strong{
+    display:block;
+    font-size:14px;
+    padding:0 0 6px
+}
+.tearms ul{
+    font-size:14px;
+    margin:0;
+    padding-left:29px
+}
+.tearms ul li{
+    color:#777;
+    padding:8px 0
+}
+.mobileimg{
+    width:100%;
+    display:none
+}
+.webform-confirmation{
+    float:left;
+    font-size:30px;
+    font-weight:normal;
+    margin:20px 0;
+    padding:0;
+    text-align:center;
+    text-transform:uppercase;
+    width:100%
+}
+.webform-confirmation p{
+    color:#d78f47;
+    line-height:normal
+}
+.reach-us_sep .links{
+    display:none
+}
+.content table tbody{
+    border:0
+}
+.admin form#user-login{
+    margin:0 auto;
+    width:33%
+}
+.admin.reach-us_sep{
+    background:rgba(0,0,0,0) none repeat scroll 0 0
+}
+.admin form#user-login>div{
+    float:left
+}
+.admin form#user-login input[type="text"],.admin form#user-login input[type="password"]{
+    border:1px solid #dadada;
+    border-radius:2px;
+    box-shadow:0 1px 4px #ececec inset;
+    color:#888;
+    margin-bottom:3px;
+    padding:6px
+}
+.admin form#user-login input[type="submit"]{
+    background:#d78f47 none repeat scroll 0 0;
+    border:2px solid #636363;
+    border-radius:2px;
+    color:#fff;
+    cursor:pointer;
+    font-size:18px;
+    padding:10px 25px
+}
+ .admin form#user-login .form-item .description{
+    font-size:11px
+}
+.admin h1{
+    font-size:30px;
+    margin-top:6%
+}
+.tab-content a,.recipie_ingredient a{
+    color:#293b8f;
+    text-decoration:none
+}
+.fb.sitemap{
+    list-style:outside none none;
+    margin:0;
+    padding:0
+}
+.region-content .sitemap li a{
+    color:#000;
+    display:inline-block;
+    font-size:14px;
+    text-decoration:none
+}
+.region-content .sitemap li{
+    display:block;
+    line-height:normal;
+    padding:3px 0
+}
+.region-content .sitemap li a:hover{
+    color:#1b2d8b
+}
+.region-content .sitemap{
+    margin:0 auto;
+    width:43%
+}
+.bottom-span{
+    display:block;
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center;
+    color:#000;
+    font-weight:bold;
+    font-size:35px;
+    line-height:42px
+}
+.inner_wrap h1{
+    margin:0
+}
+.top-span-product{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size:16px;
+    color:#40251c;
+    display:block
+}
+.mid-span-product{
+    margin:0;
+    padding-bottom:10px;
+    text-align:center;
+    font-size:42px;
+    color:#40251c;
+    text-decoration:underline;
+    display:block
+}
+.bottom-span-product{
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
+    font-size:16px;
+    color:#40251c;
+    line-height:10px;
+    display:block
+}
+.watch-tvc{
+    width:auto;
+    margin:0 0 0 -80px;
+    padding:0;
+    float:left;
+    position:absolute;
+    left:50%;
+    bottom:15%
+}
+a.btn{
+    display:inline-block;
+    color:#666;
+    background-color:#eee;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:12px;
+    padding:10px 30px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-bottom-width:3px;
+    white-space:nowrap;
+    text-decoration:none
+}
+a.btn:hover{
+    background-color:#e3e3e3;
+    border-color:rgba(0,0,0,0.5)
+}
+a.btn:active{
+    background-color:#CCC;
+    border-color:rgba(0,0,0,0.9)
+}
+.home-contest-button{
+    height:100%;
+    position:absolute;
+    right:0;
+    top:0;
+    width:41%
+}
+.home-contest-button img{
+    width:auto
+}
+.home-contest-button .inner-wrap{
+    display:block;
+    height:100%;
+    position:relative
+}
+.home-contest-button .inner-wrap img{
+    width:auto
+}
+.home-contest-button .inner-wrap>a:first-child{
+    left:40%;
+    position:absolute;
+    top:204px
+}
+.home-contest-button .inner-wrap span a{
+    bottom:7px;
+    color:#fff;
+    font-size:13px;
+    left:auto;
+    position:absolute;
+    right:222px;
+    text-decoration:none
+}
+@media screen and (max-width:767px){
+    .aboutfirst .patchbg{
+        background:none repeat scroll 0 0 rgba(0,0,0,0);
+        height:100%;
+        top:0;
+        width:100%
+    }
+    .frm-to-palte-img{
+        display:none
+    }
+    .ancr a{
+        height:36px;
+        display:inline;
+        padding:9px 9px;
+        line-height:24px
+    }
+    .mobileimg{
+        width:100%;
+        display:block
+    }
+    .mobileimg img{
+        width:100%
+    }
+    #section2.norel .second_slide{
+        display:none
+    }
+    .navigation{
+        display:none
+    }
+    .first_slide{
+        min-height:100px
+    }
+    .slick-dots{
+        right:6px
+    }
+    .logo_wrap{
+        background-position:center center;
+        background-size:130px auto;
+        float:left;
+        margin:15px 0;
+        width:100%
+    }
+    .logo_wrap a{
+        margin:0 auto
+    }
+    #section1{
+        padding:80px 0 0
+    }
+    header{
+        min-height:80px;
+        padding:0 6px;
+        position:fixed;
+        box-shadow:0 0 4px 1px rgba(0,0,0,0.3)
+    }
+    .arrow_mid a img{
+        width:auto
+    }
+    #section2{
+        padding:8% 0 0
+    }
+    .second_slide .heading{
+        font-size:25px;
+        line-height:normal
+    }
+    .second_slide .subheading{
+        font-size:18px;
+        line-height:normal
+    }
+    .second_slide .banner.home{
+        background-size:cover;
+        float:none;
+        height:200px;
+        margin:0 auto;
+        position:relative;
+        width:100%
+    }
+    .second_slide .banner.home .pattern{
+        position:absolute
+    }
+    .banner.home .pattern .txt.txt{
+        margin:0 auto;
+        position:relative;
+        top:32%;
+        width:90%
+    }
+    .banner.home .pattern .txt.txt h2{
+        font-size:16px
+    }
+    .banner.home .pattern .txt.txt h2 a span{
+        font-size:19px;
+        width:100%
+    }
+    .second_slide .grid .reusable{
+        float:none;
+        margin:0 auto;
+        padding:0;
+        width:100%
+    }
+    .second_slide .grid .reusable .head{
+        font-size:20px;
+        line-height:normal
+    }
+    .gloverLay{
+        font-size:14px;
+        line-height:17px
+    }
+    .ancr a{
+        font-size:13px
+    }
+    .second_slide .grid .reusable .thumb{
+        margin-bottom:32px
+    }
+    a.vid_btn,a.vid_btn:hover{
+        height:45px;
+        left:44%;
+        margin:0 auto;
+        position:absolute;
+        top:31%;
+        width:45px
+    }
+    .cook_with_dawat_btm_desc{
+        font-size:11px;
+        line-height:23px
+    }
+    .view_all_resp{
+        padding:14px 0 9px
+    }
+    .view_all_resp a{
+        font-size:15px
+    }
+    .cef_basmanti .clms.chef_not{
+        width:100%
+    }
+    .cef_basmanti .chif_basm_cont{
+        float:left;
+        padding:12px 0 0;
+        width:100%;
+        margin-bottom:10%
+    }
+    .cef_basmanti .clms.basmti_lvr{
+        margin:0 auto;
+        width:97%
+    }
+    .cef_basmanti .clms{
+        float:none
+    }
+    footer .container .nav_frame{
+        float:none;
+        width:100%
+    }
+    footer .container .nav_frame .left .social_icons{
+        float:left;
+        padding:0;
+        text-align:center;
+        width:100%
+    }
+    footer .container .nav_frame .left .social_icons ul{
+        margin:0 auto;
+        width:22%
+    }
+    footer .container .nav_frame .left .social_icons ul li{
+        float:left;
+        margin:0;
+        padding:14px 6%;
+        width:50%
+    }
+    footer .container .nav_frame .left .social_icons ul li:last-child{
+        padding:14px 6%
+    }
+    footer .container .nav_frame .left .social_icons ul li a{
+        margin:0 auto
+    }
+    .mnav{
+        cursor:pointer;
+        display:block;
+        float:left;
+        margin:34px 15px 0 7px;
+        position:relative;
+        width:28px;
+        z-index:999
+    }
+    .mnav a span{
+        background:none repeat scroll 0 0 #283891;
+        display:block;
+        float:left;
+        height:4px;
+        margin-bottom:3px;
+        transition:all .4s ease 0s;
+        width:100%
+    }
+    .mnav .navicon.active span::after{
+        display:none
+    }
+    .first_slide .slick-dots{
+        right:20px
+    }
+    .mnav .navicon.active span:nth-child(1){
+        transform:rotate(45deg);
+        margin-top:12px;
+        border:0;
+        height:5px
+    }
+    .mnav .navicon.active span:nth-child(3){
+        transform:rotate(-45deg);
+        margin-top:-13px;
+        border:0;
+        height:5px
+    }
+    .mnav .navicon.active span:nth-child(2){
+        opacity:0
+    }
+    .navigation.active{
+        background:#f8f8f3;
+        box-shadow:0 0 10px 0 #444;
+        display:block;
+        height:100%;
+        left:0;
+        padding-top:0;
+        position:fixed;
+        width:169px;
+        z-index:999;
+        transform:translateZ(0)
+    }
+    .navigation{
+        float:left
+    }
+    .navigation ul li{
+        display:block;
+        font-size:13px;
+        padding:0;
+        text-align:center
+    }
+    .navigation ul li:first-child{
+        padding:0
+    }
+    .navigation ul li a{
+        border-bottom:1px solid #e4a74b;
+        color:#444;
+        display:block;
+        font-size:11px;
+        height:46px;
+        line-height:17px;
+        padding:15px 0 0
+    }
+    .navigation ul li:last-child a{
+        border-bottom:1px solid #d88e47
+    }
+    .navigation ul li a:hover{
+        background:none repeat scroll 0 0 #d88e47;
+        color:#fff
+    }
+    header.active{
+        left:165px
+    }
+    .navigation ul{
+        margin:26px 0 0;
+        transform:translateZ(0)
+    }
+    .main_wrap.active{
+        left:153px;
+        position:relative
+    }
+    .tearms h1{
+        font-size:18px;
+        line-height:normal;
+        padding:0
+    }
+    .tearms p strong{
+        border-bottom:1px solid #ddd;
+        margin-bottom:16px;
+        padding:0 0 8px
+    }
+    .main_wrap{
+        transition:all .3s ease 0s;
+        left:0
+    }
+    .reach-form .msg{
+        font-size:10px;
+        margin-top:-34px;
+        right:14px;
+        width:auto
+    }
+    .reach-form .msg em{
+        bottom:-4px;
+        left:47%;
+        top:auto
+    }
+    footer .bottom a{
+        font-size:11px
+    }
+    .slick-prev,.slick-next{
+        background-size:30px auto;
+        font-size:0;
+        top:0;
+        height:100%
+    }
+    .slick-prev{
+        background-position:right center;
+        margin-top:0
+    }
+    .slick-next{
+        background-position:left center;
+        left:0;
+        margin-top:0
+    }
+    .sfilter{
+        float:left;
+        width:100%
+    }
+    .sfilter .currentval{
+        border:1px solid #ddd;
+        cursor:pointer;
+        display:block;
+        margin:13px auto 0;
+        padding:7px 0;
+        position:relative;
+        text-align:center;
+        width:82%;
+        background:#eee
+    }
+     .sfilter .currentval::after{
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-top:5px solid #000;
+        content:"";
+        height:0;
+        position:absolute;
+        right:8px;
+        top:16px;
+        width:0
+    }
+    .about .about_header{
+        padding:0
+    }
+    .about .aboutfirst .bannertxt{
+        top:22%;
+        display:none
+    }
+    .about .aboutfirst .bannertxt .logo{
+        margin:0 auto;
+        width:40%
+    }
+    .about .aboutfirst .bannertxt .logo img{
+        width:100%
+    }
+    .about .aboutfirst .bannertxt .txt{
+        font-size:14px;
+        line-height:normal;
+        margin:0 auto;
+        width:78%
+    }
+    .about #section2 .heading h2{
+        font-size:20px;
+        margin-bottom:7px
+    }
+    .about #section2 .heading h3{
+        font-size:13px
+    }
+    .about #section2 .map{
+        padding:15px 0 0
+    }
+    .about .section{
+        min-height:100px !important
+    }
+    .about #section5.section5{
+        padding:31px 0 0
+    }
+    .about #section5.section5{
+        font-size:20px
+    }
+    .about #section5 .heading h2{
+        font-size:20px
+    }
+    .about ul.tabs{
+        display:block;
+        padding:0;
+        width:100%
+    }
+    .about .imgtab.tabs label,.about .parralax.tabs li{
+        display:inline-block;
+        font-size:13px;
+        margin:19px 0 0;
+        padding:3px 5px;
+        width:41%
+    }
+    .about .container{
+        width:100%
+    }
+    .about .tab-content{
+        min-height:170px
+    }
+    .about .tips .flexslider li,.about .facts .flexslider li{
+        font-size:14px;
+        line-height:normal;
+        min-height:182px
+    }
+    .about #section5 .map{
+        background-attachment:scroll;
+        background-size:cover;
+        min-height:200px
+    }
+    .content{
+        border:0
+    }
+    .about .control ul{
+        padding:0 0 4%
+    }
+    .about #section5,.about #section3,.about #section4{
+        padding:0
+    }
+    .about #section1.section{
+        background-position:center 0
+    }
+    .aboutfirst .arrow_mid{
+        bottom:-1px;
+        position:absolute;
+        top:auto
+    }
+    .clms.basmti_lvr p{
+        font-size:10px;
+        height:78px;
+        overflow-x:scroll
+    }
+    .basmti_lvr .name{
+        font-size:12px
+    }
+    .about #section3 .heading h2{
+        font-size:20px
+    }
+    .about .farm_to_plate{
+        padding:11% 0;
+        width:100%
+    }
+    .about .frm-to-palte-img img{
+        width:100%
+    }
+    .about .tabs{
+        width:100%
+    }
+    .about section.imgtab.tabs label.nobg{
+        background:none repeat scroll 0 0 #d78f47 !important
+    }
+    .about section.imgtab.tabs label{
+        background:none repeat scroll 0 0 #d78f47;
+        border-bottom:1px solid #eee;
+        border-radius:0;
+        color:#fff;
+        display:none;
+        float:none;
+        font-size:10px;
+        line-height:normal;
+        margin:0 auto;
+        padding:9px 0;
+        width:82%
+    }
+    .about section.imgtab.tabs label.active{
+        display:block
+    }
+    .sfilter.aboutselecttab .currentval{
+        font-size:13px
+    }
+    .about section.imgtab.tabs label:hover{
+        background:none repeat scroll 0 0 #444 !important
+    }
+    .about .tabs.imgtab{
+        float:left
+    }
+    .about .tabs .content table td{
+        display:block;
+        font-size:12px;
+        line-height:normal;
+        padding:6px;
+        vertical-align:top;
+        width:100%
+    }
+    .about .tabs .content div{
+        padding:0;
+        position:relative;
+        width:100%
+    }
+    .about .content table img{
+        box-sizing:content-box;
+        height:100%;
+        width:300px
+    }
+    .about .content table{
+        display:block;
+        float:left;
+        position:absolute;
+        top:0;
+        width:100%
+    }
+    .about .content{
+        min-height:339px
+    }
+    .about .tabs input#tab-4{
+        left:0
+    }
+    .about #section4 .heading h2{
+        font-size:20px;
+        margin-bottom:18px
+    }
+    .about #section4 .heading h3{
+        font-size:13px
+    }
+    .about .multiple-items .slick-slide img{
+        height:53px;
+        width:100%
+    }
+    .about .multiple-items .slick-prev{
+        top:27%
+    }
+    .about .multiple-items .slick-next{
+        top:27%
+    }
+    .about .subnav_main{
+        top:16%;
+        display:none
+    }
+    .spec-meter img{
+        width:100%
+    }
+    .sfilter ul{
+        background:none repeat scroll 0 0 #d78f47;
+        position:relative;
+        width:82%;
+        display:none
+    }
+    .sfilter ul li{
+        border-bottom:1px solid #eee;
+        color:#ddd;
+        display:inline-block;
+        margin:0;
+        padding:4px 0;
+        width:100%
+    }
+    .sfilter ul li span{
+        background:none repeat scroll 0 0 rgba(0,0,0,0);
+        border-radius:0;
+        color:#fff
+    }
+    .sfilter ul li span:hover{
+        background:none repeat scroll 0 0 rgba(0,0,0,0)
+    }
+    .sfilter ul li:hover{
+        background:none repeat scroll 0 0 #444
+    }
+    .sfilter .cat_filter li span.active{
+        background:none repeat scroll 0 0 rgba(0,0,0,0)
+    }
+    .cat_filter{
+        float:none;
+        list-style:outside none none;
+        margin:0 auto;
+        padding:0;
+        text-align:center
+    }
+    .cat_filter li{
+        font-size:13px;
+        height:auto;
+        line-height:normal;
+        margin:5px 0
+    }
+    .cat_filter li span{
+        padding:4px 8px
+    }
+    .cat_list li{
+        width:100%
+    }
+    .cat_list li .cont h3{
+        font-size:13px
+    }
+    .cat_list li .cont p{
+        font-size:12px
+    }
+    .ancr a{
+        font-size:12px
+    }
+    .section h3{
+        font-size:24px;
+        margin-bottom:9px
+    }
+    .inner_wrap{
+        padding-top:5px
+    }
+    .inner_wrap .container{
+        font-size:14px;
+        text-align:center
+    }
+    .ready-in-15min{
+        width:80%
+    }
+    .prd_desc_wrap .left{
+        float:none;
+        margin:0 auto;
+        width:83%
+    }
+    .prd_desc_wrap{
+        margin-bottom:0;
+        width:100%
+    }
+     .prd_desc_wrap .right{
+        float:none;
+        width:100%
+    }
+    .prd_desc_wrap .right h2{
+        font-size:20px;
+        margin-top:23px
+    }
+    .prd_desc_wrap .right p{
+        font-size:14px
+    }
+    table.nutrifacts td{
+        font-size:14px
+    }
+    .availability{
+        font-size:14px;
+        margin:0 auto 15px;
+        width:89%
+    }
+    .benifits{
+        margin:8px 0 0
+    }
+    .benifits ul li{
+        margin:14px 0;
+        width:100%
+    }
+    .benifits ul li span{
+        display:block;
+        font-size:16px;
+        line-height:normal;
+        margin:9px 0
+    }
+    .inner-btm-cta{
+        margin:0
+    }
+    .arrow_mid a img{
+        width:23%
+    }
+    .arrow_mid{
+        left:0;
+        margin:0;
+        position:relative;
+        text-align:center;
+        top:-23px;
+        width:100%;
+        height:23px
+    }
+    footer .container .nav_frame .left{
+        width:100%
+    }
+    .ftr_resp li .ftr_respinr .overly{
+        left:0;
+        margin:0;
+        width:100%
+    }
+    .ftr_resp li{
+        min-height:200px
+    }
+    .ftr_resp li .ftr_respinr h3{
+        font-size:10.3px;
+        padding:10px 0;
+        word-wrap:break-word
+    }
+    .ftr_resp li .ftr_respinr p{
+        font-size:11px
+    }
+    .section-recipe{
+        padding:88px 0 0
+    }
+    .back_recipe{
+        float:right;
+        padding:0;
+        position:relative;
+        right:0;
+        width:40%
+    }
+    .recipie_heading{
+        font-size:20px;
+        padding-top:0;
+        line-height:normal;
+        margin-bottom:11px
+    }
+    .recipie_image{
+        width:100%
+    }
+    .recipie_ingredient{
+        width:100%
+    }
+    .ingredient{
+        font-size:16px;
+        margin:17px 0;
+        width:100%
+    }
+    .recipie_ingredient p{
+        font-size:13px;
+        margin:0;
+        padding:9px 0 9px 10px
+    }
+    .recipie_instruction{
+        width:100%
+    }
+    .instructions{
+        font-size:16px;
+        width:100%
+    }
+    .recipie_instruction p{
+        font-size:13px;
+        padding:0 0 0 8px
+    }
+    .back_recipe img{
+        width:100%;
+        display:none
+    }
+    .all_res_dvdr{
+        display:none
+    }
+    .main_wrap ul.tabs{
+        padding:0
+    }
+    .main_wrap ul.tabs li{
+        font-size:13px;
+        line-height:normal;
+        padding:0
+    }
+    .main_wrap ul.tabs li span{
+        font-size:13px
+    }
+    .main_wrap .prd_desc_wrap .availability{
+        font-size:14px;
+        margin:9px 0;
+        width:100%
+    }
+    .inner_wrap .container{
+        padding:0
+    }
+    .main_wrap .dishes-to-cook h2{
+        font-size:17px;
+        padding:8px 0 6px 52px
+    }
+    .main_wrap .dishes-to-cook li{
+        font-size:15px;
+        padding:4px 52px
+    }
+    .main_wrap .dishes-to-cook ul{
+        margin:4px 0 24px
+    }
+    .container{
+        width:100%
+    }
+    .container h3.small{
+        font-size:20px
+    }
+    .tab-content p,.container p.rozana{
+        font-size:14px
+    }
+    .section h4{
+        padding-bottom:0;
+        margin-bottom:11px
+    }
+    .container h3.small{
+        padding-bottom:0;
+        margin-top:26px
+    }
+    .main_wrap .reach_heading{
+        font-size:23px !important;
+        margin:0
+    }
+    .section-reach p{
+        font-size:14px
+    }
+    .section-reach p{
+        text-align:center
+    }
+    .reach-form input[type="text"],.reach-form input[type="email"],.reach-form textarea{
+        width:100%
+    }
+    .section-reach{
+        padding:88px 0 0
+    }
+    .section-reach h5{
+        font-size:14px
+    }
+    .about #section4 .heading h3{
+        padding:0 4px
+    }
+    .about .tabs .content table td{
+        font-size:11px
+    }
+    .imgtab .tab_wrap a{
+        background:#d78f47 none repeat scroll 0 0;
+        border-bottom:1px solid #fff;
+        border-radius:0;
+        color:#fff;
+        display:block;
+        font-size:12px;
+        height:auto;
+        line-height:normal;
+        margin:0 auto;
+        width:82%
+    }
+    .imgtab .tab_wrap a:hover{
+        background:#444 none repeat scroll 0 0
+    }
+    .imgtab .tab_wrap{
+        display:none
+    }
+    .imgtab .tab_wrap.active{
+        display:block
+    }
+    .home-contest-button .inner-wrap>a:first-child{
+        left:auto;
+        top:36%
+    }
+    .home-contest-button .inner-wrap>a:first-child img{
+        width:39%
+    }
+    .home-contest-button .inner-wrap span a{
+        bottom:-1px;
+        color:#fff;
+        font-size:2vw;
+        right:0
+    }
+}
+@media(min-width:480px) and (max-width:767px){
+    .second_slide .grid .reusable{
+        float:left;
+        margin-right:9px;
+        width:48%
+    }
+    .second_slide .grid .reusable .head{
+        font-size:17px
+    }
+    .spec-meter img{
+        width:auto
+    }
+    .gloverLay{
+        font-size:12px;
+        line-height:normal
+    }
+    .ancr a{
+        font-size:10px
+    }
+    .second_slide .grid .reusable:last-child{
+        float:none;
+        margin:0 auto;
+        width:48%
+    }
+    .clms.basmti_lvr p{
+        font-size:10px;
+        width:100%
+    }
+    .gloverLay .inner{
+        padding:9px 11px
+    }
+    .basmti_lvr .name{
+        font-size:10px
+    }
+    .second_slide .banner.home{
+        background-size:cover
+    }
+    .banner.home .pattern .txt.txt{
+        width:53%
+    }
+    .cef_basmanti .clms.chef_not{
+        float:left;
+        width:51%
+    }
+    .cef_basmanti .clms.basmti_lvr{
+        float:right;
+        margin:0;
+        width:47%
+    }
+    .cat_list li{
+        width:50%
+    }
+    .ftr_resp li{
+        min-height:301px
+    }
+    .ftr_resp li .ftr_respinr p{
+        height:45px;
+        margin-bottom:16px;
+        overflow-x:hidden;
+        overflow-y:auto
+    }
+    .recipie_image{
+        float:left;
+        width:44%
+    }
+    .recipie_ingredient{
+        float:right;
+        width:54%
+    }
+    .ingredient{
+        margin-top:0
+    }
+    .recipie_ingredient p{
+        padding:4px 0
+    }
+    .recipie_heading{
+        padding-bottom:16px
+    }
+    .cat_list li .cont p{
+        font-size:10px;
+        height:30px;
+        overflow-x:hidden
+    }
+    .home-contest-button .inner-wrap>a:first-child{
+        left:3%
+    }
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+    .aboutfirst .patchbg{
+        display:none
+    }
+    #section1.aboutfirst{
+        background:rgba(0,0,0,0) none repeat scroll 0 0 !important
+    }
+    .mobileimg{
+        display:block
+    }
+    .mobileimg img{
+        width:100%
+    }
+    .aboutfirst .arrow_mid{
+        bottom:31px;
+        position:relative
+    }
+    .second_slide .banner.home{
+        display:none
+    }
+    #section2 .mobileimg{
+        display:block
+    }
+    #section2 .mobileimg img{
+        width:100%
+    }
+    .about #section5.section5{
+        padding-top:98px
+    }
+    .chif_basm_cont .slick-next{
+        left:-1px
+    }
+    .imgtab .tab_wrap a{
+        font-size:12px !important
+    }
+    .cat_list li .cont h3{
+        font-size:12px !important
+    }
+    .frm-to-palte-img{
+        display:none
+    }
+    .about.main_wrap .section{
+        min-height:500px !important
+    }
+    .navigation ul li{
+        font-size:14px;
+        padding:11px 6px
+    }
+    .spec-meter img{
+        width:100%
+    }
+    .navigation ul li:first-child{
+        padding:0
+    }
+    .navigation{
+        width:69%
+    }
+    .first_slide{
+        min-height:200px
+    }
+    #section2{
+        padding:10% 0 0
+    }
+    .second_slide .heading{
+        font-size:37px
+    }
+    .second_slide .subheading{
+        font-size:30px
+    }
+    .second_slide .grid .reusable .head{
+        font-size:21px
+    }
+    .gloverLay{
+        font-size:12px;
+        line-height:normal
+    }
+    .ancr a{
+        font-size:10px
+    }
+    .clms.basmti_lvr p{
+        font-size:13px;
+        height:111px;
+        overflow-x:scroll
+    }
+    .basmti_lvr .name{
+        font-size:14px
+    }
+    .cook_with_dawat_btm_desc{
+        font-size:15px;
+        padding-bottom:5px
+    }
+    .second_slide .banner.home{
+        height:300px
+    }
+    .prd_desc_wrap{
+        width:100%
+    }
+    .aboutfirst .bannertxt .txt{
+        font-size:22px;
+        line-height:normal
+    }
+    #section2 .heading h2{
+        font-size:35px
+    }
+    #section2 .heading h3{
+        font-size:23px
+    }
+    ul.tabs{
+        width:100%
+    }
+    .tips .flexslider li,.facts .flexslider li{
+        font-size:21px
+    }
+    #section3 .heading h2{
+        font-size:35px
+    }
+    #section5 .heading h2{
+        font-size:35px
+    }
+    .imgtab.tabs label,.parralax.tabs li{
+        font-size:14px
+    }
+    section.imgtab.tabs label{
+        font-size:14px;
+        margin:0
+    }
+     .tabs{
+        width:100%
+    }
+    .content table td{
+        vertical-align:top
+    }
+    #section4 .heading h2{
+        font-size:35px
+    }
+    .multiple-items .slick-slide img{
+        height:47px;
+        margin:0 19px
+    }
+    .multiple-items .slick-prev{
+        top:25%
+    }
+    .multiple-items .slick-next{
+        top:25%
+    }
+    .cat_filter li{
+        font-size:14px
+    }
+    .cat_list li .cont h3{
+        font-size:14px;
+        padding-bottom:0
+    }
+    .cat_list li .cont p{
+        font-size:12px
+    }
+    .ftr_resp li .ftr_respinr h3{
+        font-size:11px;
+        line-height:normal;
+        padding:4px 0 15px;
+        white-space:normal
+    }
+    .ftr_resp li .ftr_respinr p{
+        font-size:12px;
+        height:48px;
+        margin-bottom:5px;
+        overflow-x:hidden;
+        overflow-y:auto
+    }
+    .ftr_resp li{
+        min-height:277px
+    }
+    .ftr_resp li .ftr_respinr .overly{
+        margin-left:-45%;
+        width:90%
+    }
+    .about #section5.section5{
+        padding-top:98px
+    }
+    .about .tabs{
+        width:82%
+    }
+    .about-we{
+        width:77%
+    }
+    .about.main_wrap .section{
+        padding-top:95px !important
+    }
+    section.imgtab.tabs label{
+        font-size:11px;
+        height:36px;
+        padding:0 10px
+    }
+    .content table td{
+        float:left;
+        font-size:12px;
+        width:50%
+    }
+    .content table img{
+        width:100%
+    }
+    .content{
+        min-height:200px
+    }
+    .about #section4 .heading{
+        float:none;
+        margin:0 auto;
+        width:86%
+    }
+    .frm-to-palte-img{
+        background-position:0 0 !important
+    }
+    #section5 .map{
+        background-attachment:scroll
+    }
+    .reach-form .msg{
+        font-size:10px;
+        margin-top:-34px;
+        right:18%;
+        width:auto
+    }
+    .reach-form .msg em{
+        bottom:-4px;
+        left:47%;
+        top:auto
+    }
+    .navigation ul li a{
+        padding:0 4px
+    }
+    .content table img{
+        height:178px
+    }
+    .imgtab .tab_wrap a{
+        font-size:13px;
+        line-height:normal;
+        padding:6px 9px
+    }
+    .home-contest-button .inner-wrap>a:first-child{
+        left:24%;
+        top:36%
+    }
+    .home-contest-button .inner-wrap>a:first-child img{
+        width:39%
+    }
+    .home-contest-button .inner-wrap span a{
+        bottom:3px;
+        color:#fff;
+        font-size:1vw;
+        right:3px
+    }
+}
+@media(min-width:900px) and (max-width:1024px){
+    .ftr_resp li{
+        min-height:325px
+    }
+}
+@media(min-width:1025px) and (max-width:1280px){
+    section.imgtab.tabs label{
+        font-size:15px
+    }
+    .navigation ul li a{
+        font-size:19px
+    }
+    .navigation ul li{
+        padding:0 9px
+    }
+    .navigation{
+        width:80%
+    }
+    .about .section{
+        min-height:550px !important
+    }
+    section.imgtab.tabs label{
+        font-size:13px;
+        margin:0
+    }
+    .content table td{
+        float:left;
+        font-size:14px;
+        width:50%
+    }
+    .content table img{
+        width:100%
+    }
+    .content{
+        min-height:226px
+    }
+    .about .about-we{
+        width:76%
+    }
+}
+@media(min-width:1281px) and (max-width:1680px){
+    .ftr_resp li{
+        min-height:500px
+    }
+    .about .section{
+        min-height:600px !important
+    }
+    section.imgtab.tabs label{
+        font-size:15px
+    }
+}
+@media(min-width:1681px) and (max-width:1920px){
+    .ftr_resp li{
+        min-height:615px
+    }
+    .about .section{
+        min-height:700px !important
+    }
+}
+.slick-slider{
+    position:relative;
+    display:block;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-touch-callout:none;
+    -khtml-user-select:none;
+    -ms-touch-action:pan-y;
+    touch-action:pan-y;
+    -webkit-tap-highlight-color:transparent
+}
+.slick-list{
+    position:relative;
+    display:block;
+    overflow:hidden;
+    margin:0;
+    padding:0
+}
+.slick-list:focus{
+    outline:0
+}
+.slick-list.dragging{
+    cursor:pointer;
+    cursor:hand
+}
+.slick-slider .slick-track,.slick-slider .slick-list{
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0)
+}
+.slick-track{
+    position:relative;
+    top:0;
+    left:0;
+    display:block
+}
+.slick-track:before,.slick-track:after{
+    display:table;
+    content:''
+}
+.slick-track:after{
+    clear:both
+}
+.slick-loading .slick-track{
+    visibility:hidden
+}
+.slick-slide{
+    display:none;
+    float:left;
+    height:100%;
+    min-height:1px
+}
+[dir='rtl'] .slick-slide{
+    float:right
+}
+.slick-slide img{
+    display:block;
+    width:100%
+}
+.slick-slide.slick-loading img{
+    display:none
+}
+.slick-slide.dragging img{
+    pointer-events:none
+}
+.slick-initialized .slick-slide{
+    display:block;
+    position:relative
+}
+.slick-loading .slick-slide{
+    visibility:hidden
+}
+.slick-vertical .slick-slide{
+    display:block;
+    height:auto;
+    border:1px solid transparent
+}
+.slick-dots{
+    bottom:18px;
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:85px;
+    width:auto
+}
+.slick-dots li{
+    list-style:none;
+    margin:0;
+    padding:0 0 0 8px;
+    float:left
+}
+.slick-dots li button{
+    width:auto;
+    margin:0;
+    padding:0;
+    float:left;
+    background:url(//cdn.daawat.com/cdn/farfuture/7gIfbnR3lb6sB0uxcEQyxqL7QzoatCCdZJsxDbVhszw/mtime:1432717835/sites/all/themes/ltfoods/images/pager_active.png) center center no-repeat;
+    width:16px;
+    height:17px;
+    text-indent:99999px;
+    border:0;
+    outline:0
+}
+.slick-active button{
+    background:url(//cdn.daawat.com/cdn/farfuture/3XjXBlk4ey2-2zqB--QqkKeBA6cNFFRv-VJhMZkLZxM/mtime:1432717835/sites/all/themes/ltfoods/images/pager.png) center center no-repeat !important
+}
+.fancybox-wrap,.fancybox-skin,.fancybox-outer,.fancybox-inner,.fancybox-image,.fancybox-wrap iframe,.fancybox-wrap object,.fancybox-nav,.fancybox-nav span,.fancybox-tmp{
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    vertical-align:top
+}
+.fancybox-wrap{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8020
+}
+.fancybox-skin{
+    position:relative;
+    background:#f9f9f9;
+    color:#444;
+    text-shadow:none;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px
+}
+.fancybox-opened{
+    z-index:8030
+}
+.fancybox-opened .fancybox-skin{
+    -webkit-box-shadow:0 10px 25px rgba(0,0,0,0.5);
+    -moz-box-shadow:0 10px 25px rgba(0,0,0,0.5);
+    box-shadow:0 10px 25px rgba(0,0,0,0.5)
+}
+.fancybox-outer,.fancybox-inner{
+    position:relative
+}
+.fancybox-inner{
+    overflow:hidden
+}
+.fancybox-type-iframe .fancybox-inner{
+    -webkit-overflow-scrolling:touch
+}
+.fancybox-error{
+    color:#444;
+    font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin:0;
+    padding:15px;
+    white-space:nowrap
+}
+.fancybox-image,.fancybox-iframe{
+    display:block;
+    width:100%;
+    height:100%
+}
+.fancybox-image{
+    max-width:100%;
+    max-height:100%
+}
+#fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{
+    background-image:url(//cdn.daawat.com/cdn/farfuture/T2b_JRCCr1gvv-aYEqquaIgu_noKIe7OA2NHtS-5rYs/mtime:1432717835/sites/all/themes/ltfoods/js/fancybox_sprite.png)
+}
+ #fancybox-loading{
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-top:-22px;
+    margin-left:-22px;
+    background-position:0 -108px;
+    opacity:.8;
+    cursor:pointer;
+    z-index:8060
+}
+#fancybox-loading div{
+    width:44px;
+    height:44px;
+    background:url(//cdn.daawat.com/cdn/farfuture/cOwipsf1Fnxdd8CJtPNJXCPCoyMJ3fb1gJOYHlrnAys/mtime:1432717835/sites/all/themes/ltfoods/js/fancybox_loading.gif) center center no-repeat
+}
+.fancybox-close{
+    position:absolute;
+    top:-18px;
+    right:-18px;
+    width:36px;
+    height:36px;
+    cursor:pointer;
+    z-index:8040
+}
+.fancybox-nav{
+    position:absolute;
+    top:0;
+    width:40%;
+    height:100%;
+    cursor:pointer;
+    text-decoration:none;
+    background:transparent url(//cdn.daawat.com/cdn/farfuture/MLWHGApQWSMr2L5pjJelT7ojW4pEzud6xnP23RIXMK4/mtime:1432717835/sites/all/themes/ltfoods/js/blank.gif);
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    z-index:8040
+}
+.fancybox-prev{
+    left:0
+}
+.fancybox-next{
+    right:0
+}
+.fancybox-nav span{
+    position:absolute;
+    top:50%;
+    width:36px;
+    height:34px;
+    margin-top:-18px;
+    cursor:pointer;
+    z-index:8040;
+    visibility:hidden
+}
+.fancybox-prev span{
+    left:10px;
+    background-position:0 -36px
+}
+.fancybox-next span{
+    right:10px;
+    background-position:0 -72px
+}
+.fancybox-nav:hover span{
+    visibility:visible
+}
+.fancybox-tmp{
+    position:absolute;
+    top:-99999px;
+    left:-99999px;
+    max-width:99999px;
+    max-height:99999px;
+    overflow:visible !important
+}
+.fancybox-lock{
+    overflow:visible !important;
+    width:auto
+}
+.fancybox-lock body{
+    overflow:hidden !important
+}
+.fancybox-lock-test{
+    overflow-y:hidden !important
+}
+.fancybox-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+    display:none;
+    z-index:8010;
+    background:url(//cdn.daawat.com/cdn/farfuture/bRPZaoceFuHs2FY2DRiTD0rV0P6F0Htx8kKwNcu-9xo/mtime:1432717835/sites/all/themes/ltfoods/js/fancybox_overlay.png)
+}
+.fancybox-overlay-fixed{
+    position:fixed;
+    bottom:0;
+    right:0
+}
+.fancybox-lock .fancybox-overlay{
+    overflow:auto;
+    overflow-y:scroll
+}
+.fancybox-title{
+    visibility:hidden;
+    font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    position:relative;
+    text-shadow:none;
+    z-index:8050
+}
+.fancybox-opened .fancybox-title{
+    visibility:visible
+}
+.fancybox-title-float-wrap{
+    position:absolute;
+    bottom:0;
+    right:50%;
+    margin-bottom:-35px;
+    z-index:8050;
+    text-align:center
+}
+.fancybox-title-float-wrap .child{
+    display:inline-block;
+    margin-right:-100%;
+    padding:2px 20px;
+    background:transparent;
+    background:rgba(0,0,0,0.8);
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    text-shadow:0 1px 2px #222;
+    color:#FFF;
+    font-weight:bold;
+    line-height:24px;
+    white-space:nowrap
+}
+.fancybox-title-outside-wrap{
+    position:relative;
+    margin-top:10px;
+    color:#fff
+}
+.fancybox-title-inside-wrap{
+    padding-top:10px
+}
+.fancybox-title-over-wrap{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+    padding:10px;
+    background:#000;
+    background:rgba(0,0,0,.8)
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5){
+    #fancybox-loading,.fancybox-close,.fancybox-prev span,.fancybox-next span{
+        background-image:url(//cdn.daawat.com/cdn/farfuture/8p43NpLsNRQ3ScFYZJ6OeNOrg7ZG5SqYyna01wQa7wk/mtime:1432717835/sites/all/themes/ltfoods/js/fancybox_sprite%402x.png);
+        background-size:44px 152px
+    }
+    #fancybox-loading div{
+        background-image:url(//cdn.daawat.com/cdn/farfuture/aDPQUdE7w7rcmjUtpJIQoLZdbdm_o2i4rlpg9PIe0YM/mtime:1432717835/sites/all/themes/ltfoods/js/fancybox_loading%402x.gif);
+        background-size:24px 24px
+    }
+}
