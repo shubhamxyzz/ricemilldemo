@@ -8,25 +8,28 @@
     <!-- Include bootstrap CSS -->
     <link href="includes/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="includes/style.css" rel="stylesheet">
-    <script src="includes/jquery/jquery-2.1.0.min.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="wp-content/uploads/2016/12/mrm-fav-2.png" />
+     <link rel="shortcut icon" type="image/x-icon" href="wp-content/uploads/2016/12/mrm-fav-2.png" />
     
     <!--Angular js-->
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
     <script src="js/angular-animate.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script>  
+  <link rel="stylesheet" type="text/css" href="wp-content/plugins/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="wp-content/plugins/slick/slick-theme.css"/>
+ 
+    
 </head>
 <body ng-controller="navController">
 
     <!-- Site header and navigation -->
-  
+   
 
     <div class="main_wrap">
         <div class="temp_container" id="top_hdr">
             <header>
                 <div class="logo_wrap">
-                    <a href="/" title="home"> </a>
+                    <a href="#brand" title="home"> </a>
                 </div>
                 <div class="pushnav">
                     <div class="mnav"><a class="navicon"><span></span><span></span><span></span></a></div>
@@ -40,35 +43,22 @@
                     </div>
                 </div>
             </header>
-<div class="show">
-    <br><br><br><br><br><br>
-<div class="container">
-        <div class="carousel slide" id="myCarousel" data-interval="1000">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-                <li data-slide-to="1" data-target="#myCarousel" class=""></li>
-                <li data-slide-to="2" data-target="#myCarousel"></li>
-            </ol>
-
-            <!-- Wrapper for Slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img  src="wp-content/uploads/2016/12/b1.jpeg"> 
-                </div>
-                <div class="item">
-                    <img  src="wp-content/uploads/2016/12/b2.jpeg"> 
-                </div>
-                <div class="item">
-                    <img  src="wp-content/uploads/2016/12/b3.jpeg"> 
-                </div>
-            </div>
-            <!-- Controls -->
             
-        </div>
-    </div>
-        
-</div>
+            <div class="lazy slider" id="wrapper">
+                <div><img src="wp-content/uploads/2016/12/b1.jpg"></div>
+                <div><img src="wp-content/uploads/2016/12/b2.jpg"></div>
+                <div><img src="wp-content/uploads/2016/12/b3.jpg"></div>
+                
+            </div>
+
+            <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+      
+            <script type="text/javascript" src="wp-content/plugins/slick/slick.min.js"></script>
+            
+            
 
     <div>
         <div ng-view="" id="ng-view" class="slide-animation">
@@ -118,29 +108,28 @@
 
 
 
-    <!-- Include jQuery and bootstrap JS plugins -->
-    <script src="includes/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="//cdn.daawat.com/sites/default/files/advagg_js/js__0Oxh4gOtyGo2WhGr4y4upaRBULkqsRxEHOIZ3HiFdRw__Cey9tUaX_nEXcFb7xXYBqxry8Mv9-rIKLdds0W9ISTE__hYACJS44CfyZgosadarZ825nl2rTLMFYw-g_nSmGGv8.js"></script>
-    <script type="text/javascript">
-        <!--//--><![CDATA[//><!--
-        jQuery(document).ready(function($){
-        $(".mnav").click(function() {
-        $(this).parent().toggleClass("active");
-        $(".main_wrap, .navigation, header").toggleClass("active");
-        });
-        $(".main_wrap.active").click(function() {
-        $(this).removeClass("active");
-        $(".navigation, header").removeClass("active");
-        });
-        $(document).click(function(e) {
-        if (!$(e.target).is(".pushnav, .pushnav *")) {
-        $(".navigation, .main_wrap, header").removeClass("active");
-        }
-        });
-        });
-        //--><!]]>
-        </script>
+                      <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+                      <script src="wp-content/plugins/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+                      <script type="text/javascript">
+                        $(document).on('ready', function() {
+                         
+                        
+                         
+                         
+                         
+                          $(".lazy").slick({
+                            dots: true,
+                            infinite: true,
+                            autoplay:true,
+                            autoplaySpeed: 1000,
+                            arrows:false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                          });
+                        });
+                    </script>
+                    
+   
 </body>
 </html>
 
