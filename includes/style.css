@@ -25,6 +25,10 @@ html {
 .top .container {
     padding: 0;
 }
+.top .container img{
+    height: 140px;
+    width: 300px;
+}
 
 .middle  {
     background-color: hsl(198, 57%, 95%);
@@ -54,7 +58,7 @@ html {
     font-size: 24px;
 }
 .navbar-nav li a:hover {
-    background-color: hsla(180, 4%, 64%, 0);
+    background-color:transparent;
 }
 
 .bottom {
