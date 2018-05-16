@@ -261,11 +261,15 @@ header{
     width:190px;
     padding:0;
     height:52px;
-    float:left;
+    float:center;
     background:url("wp-content/uploads/2016/12/dosti.png") center top no-repeat;
     background-size:cover;
     margin-right:-100%;
-    position:absolute
+    position:absolutedisplay;
+    display: block; /*for the img inside your div */  
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .logo_wrap a{
     display:block;
@@ -275,9 +279,9 @@ header{
 }
 .navigation{
     width:85%;
-    margin:0;
+
     padding:15px 0 0 0;
-    float:right
+    margin: 0 auto;
 }
 .navigation ul{
     list-style:none;
